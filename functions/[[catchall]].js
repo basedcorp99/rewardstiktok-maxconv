@@ -22,15 +22,14 @@ export async function onRequest(context) {
     m.network === network
   );
 
+  const lander = mapping.lander;
+
   let targetUrl;
   let appendSubid;
 
   if (mapping) {
     targetUrl = new URL(mapping.url);
     appendSubid = mapping.appendSubid;
-  } else {
-    targetUrl = new URL(userMappings.defaultUrl);
-    appendSubid = userMappings.appendSubidToDefault;
   }
 
   // Append the network to the target URL
@@ -68,7 +67,7 @@ export async function onRequest(context) {
         <body>
             <div class="image-container">
                         <a rel="noreferrer" href="${targetUrl.toString()}">
-                    <img src="/images/${offer}lander.png">
+                    <img src="/public/images/${lander}">
                 </a>
             </div>
         </body>

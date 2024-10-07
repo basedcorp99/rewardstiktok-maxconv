@@ -1,19 +1,19 @@
 {
-    "mappings": [
-      {
-        "geo": "us",
-        "offer": "shein",
-        "network": "fluent",
-        "lander": "sh-spookylander.png",
-        "url": "https://t.afftrackr.com/?eqi=sitLI4hr%2bHO11Qb%2fvNEkQYDNR7%2bwY%2bY%2fvQJDRoz7h5U%3d&s1=",
-        "appendSubId": true
-      },
-      {
-        "offer": "mcdonalds",
-        "network": "tapp",
-        "lander": "mcdonaldslander.png",
-        "url": "https://unlockrwrd.com/A2r0uwE",
-        "appendSubId": false
-      }
-    ]
-  }
+  "mappings": [
+    {
+      "geo": "us",
+      "offer": "shein",
+      "network": "fluent",
+      "lander": "sh-spookylander.png",
+      "url": "https://t.afftrackr.com/?eqi=sitLI4hr%2bHO11Qb%2fvNEkQYDNR7%2bwY%2bY%2fvQJDRoz7h5U%3d&s1=",
+      "appendSubId": true
+    },
+    {
+      "offer": "mcdonalds",
+      "network": "tapp",
+      "lander": "mcdonaldslander.png",
+      "url": "https://unlockrwrd.com/A2r0uwE",
+      "appendSubId": false
+    }
+  ]
+}

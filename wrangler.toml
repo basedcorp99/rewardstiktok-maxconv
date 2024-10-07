@@ -1,0 +1,9 @@
+name = "trwrd-cf-pages"
+main = "functions/[[catchall]].js"
+compatibility_date = "2023-05-18"
+
+[vars]
+ENVIRONMENT = "development"
+
+[site]
+bucket = "./public"

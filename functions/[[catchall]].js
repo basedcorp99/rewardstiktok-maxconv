@@ -2,7 +2,7 @@ import anonMappings from '../config/anon.json';
 import user37Mappings from '../config/37.json';
 
 export async function onRequest(context) {
-  if (context.params.catchall !== 5) {
+  if (context.params.catchall.length !== 5) {
     return new Response('Invalid URL format', { status: 400 });
   }
 

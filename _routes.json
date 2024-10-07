@@ -1,5 +1,12 @@
 {
     "version": 1,
     "include": ["/*"],
-    "exclude": ["/public/*"]
+    "exclude": [
+        "/public/*",
+        "/*.ico",
+        "/*.jpg",
+        "/*.png",
+        "/*.gif",
+        "/*.svg"
+    ]
  }

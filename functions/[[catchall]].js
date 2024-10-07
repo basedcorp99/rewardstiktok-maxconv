@@ -32,12 +32,9 @@ export async function onRequest(context) {
     appendSubid = mapping.appendSubid;
   }
 
-  // Append the network to the target URL
-  targetUrl.searchParams.append('network', network);
-
   // Append the subid to the target URL only if appendSubid is true
   if (appendSubid) {
-    targetUrl.searchParams.append('subid', subid);
+    targetUrl += subid;
   }
 
   // Generate the HTML content

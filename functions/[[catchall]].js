@@ -28,7 +28,7 @@ export async function onRequest(context) {
   let appendSubid;
 
   if (mapping) {
-    targetUrl = new URL(mapping.url);
+    targetUrl = mapping.url;
     appendSubid = mapping.appendSubid;
   }
 

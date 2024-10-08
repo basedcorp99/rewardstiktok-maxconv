@@ -2,7 +2,7 @@
   "fluent": {
     "mappings": [
       {
-        "offer": "shein",
+        "offer": "sh",
         "geo": "us",
         "url": "https://t.afftrackr.com/?lnwk=kMZLdfWdFFty11jBSbM3jKvUk0Z%2ffK4JvQJDRoz7h5U%3d&s1=",
         "lander": "sheinlander.png"

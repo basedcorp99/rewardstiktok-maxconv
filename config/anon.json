@@ -78,15 +78,15 @@
   "tapp": {
     "mappings": [
       {
-        "offer": "sh-tap",
+        "offer": "sh-lim",
         "url": "https://unlockrwrd.com/8Z14IY1",
-        "lander": "sh-taplander.png",
+        "lander": "sh-limlander.png",
         "appendSubId": false
       },
       {
-        "offer": "sh-tapfp",
+        "offer": "sh",
         "url": "https://unlockrwrd.com/w19kHoY",
-        "lander": "sh-tapfplander.png",
+        "lander": "sheinlander.png",
         "appendSubId": false
       },
       {

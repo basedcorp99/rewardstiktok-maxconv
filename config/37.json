@@ -1,19 +1,184 @@
 {
-  "mappings": [
-    {
-      "geo": "us",
-      "offer": "shein",
-      "network": "fluent",
-      "lander": "sh-spookylander.png",
-      "url": "https://t.afftrackr.com/?eqi=sitLI4hr%2bHO11Qb%2fvNEkQYDNR7%2bwY%2bY%2fvQJDRoz7h5U%3d&s1=",
-      "appendSubId": true
-    },
-    {
-      "offer": "mcdonalds",
-      "network": "tapp",
-      "lander": "mcdonaldslander.png",
-      "url": "https://unlockrwrd.com/A2r0uwE/",
-      "appendSubId": false
-    }
-  ]
+  "fluent": {
+    "mappings": [
+      {
+        "offer": "shein-fp",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?TTT=2RGXu8VpI3iyJ1Fflt2xeMKKGZ5t30S%2bvQJDRoz7h5U%3d&s1=",
+        "lander": "sheinlander.png"
+      },
+      {
+        "offer": "shein-fp",
+        "geo": "uk",
+        "url": "https://t.afftrackr.com/?yte=2RGXu8VpI3gcoj0YeMBlImggc2cvjkF2vQJDRoz7h5U%3d&s1=",
+        "lander": "sheinlander.png"
+      },
+      {
+        "offer": "shein-fp",
+        "geo": "ca",
+        "url": "https://t.afftrackr.com/?es4v=2Lr4gL50yrQrJ0vAO7of71st87vDSrzqvQJDRoz7h5U%3d&s1=",
+        "lander": "sheinlander.png"
+      },
+      {
+        "offer": "shein-fp",
+        "geo": "au",
+        "url": "https://t.afftrackr.com/?eqi=iyX5%2ba7elU0Frqp4TlXn1ocA1lddy%2f71vQJDRoz7h5U%3d&s1=",
+        "lander": "sheinlander.png"
+      }, 
+      {
+        "offer": "shein-pr",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?eqi=2Lr4gL50yrSw8hz8VcIN8FK6%2fLEf2WONvQJDRoz7h5U%3d&s1=",
+        "lander": "sh-limlander.png"
+      },
+      {
+        "offer": "shein-pr",
+        "geo": "uk",
+        "url": "https://t.afftrackr.com/?eqi=iyX5%2ba7elU26g0%2bOe3f9I%2fkSWYFsiQOYvQJDRoz7h5U%3d&s1=",
+        "lander": "sh-limlander.png"
+      },
+      {
+        "offer": "shein-pr",
+        "geo": "ca",
+        "url": "https://t.afftrackr.com/?eqi=3ANWFChk9XDrq204gUmWah4xu4r4NPNpvQJDRoz7h5U%3d&s1=",
+        "lander": "sh-limlander.png"
+      },
+      {
+        "offer": "shein-pr",
+        "geo": "au",
+        "url": "https://t.afftrackr.com/?es4v=2Lr4gL50yrRDffBgV2X2duz%2bmfauYrKFvQJDRoz7h5U%3d&s1=",
+        "lander": "sh-limlander.png"
+      },
+      {
+        "offer": "shein-halloween",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?ge4=TVu%2fhLKrnOZ6gp85d4YJ6kOOq%2b5relxTvQJDRoz7h5U%3d&s1=",
+        "lander": "sh-spookylander.png"
+      },
+      {
+        "offer": "sephora-fp",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?TTT=wEYUA7YCkF%2fWujRlRZffyRX%2fyKRnzOe6vQJDRoz7h5U%3d&s1=",
+        "lander": "sephoralander.png"
+      },
+      {
+        "offer": "sephora-fp",
+        "geo": "ca",
+        "url": "https://t.afftrackr.com/?es4v=2Lr4gL50yrTlW5crGI%2fc%2bYvXPq2z327CvQJDRoz7h5U%3d&s1=",
+        "lander": "sephoralander.png"
+      },
+      {
+        "offer": "sephora-fp",
+        "geo": "au",
+        "url": "https://t.afftrackr.com/?f5c=B70mWsioBUPlW5crGI%2fc%2bZgx7UJGPA4zvQJDRoz7h5U%3d&s1=",
+        "lander": "sephoralander.png"
+      },
+      {
+        "offer": "sephora-pr",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?yte=wEYUA7YCkF9wj58Dz%2bzqrGdUtQIA49vNvQJDRoz7h5U%3d&s1=",
+        "lander": "sephoralander.png"
+      },
+      {
+        "offer": "sephora-pr",
+        "geo": "ca",
+        "url": "https://t.afftrackr.com/?oex3=3ANWFChk9XB1DMqUrCHVHiGP51TylCGivQJDRoz7h5U%3d&s1=",
+        "lander": "sephoralander.png"
+      },
+      {
+        "offer": "sephora-pr",
+        "geo": "au",
+        "url": "https://ratrck.com/?es4v=2Lr4gL50yrSbsIUfT4XJnMJ%2frmGUNEgmvQJDRoz7h5U%3d&s1=",
+        "lander": "sephoralander.png"
+      },
+      {
+        "offer": "sephora-pr",
+        "geo": "uk",
+        "url": "https://t.afftrackr.com/?ge4=TVu%2fhLKrnOZc%2bQtuWaMqqrpMjNVR0uKRvQJDRoz7h5U%3d&s1=",
+        "lander": "sephoralander.png"
+      },
+      {
+        "offer": "lulu-df",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?eqi=3ANWFChk9XBdcCTY6Obsf4Qdd3j8b0EuvQJDRoz7h5U%3d&s1=",
+        "lander": "lululemonlander.png"
+      },
+      {
+        "offer": "lulu-df",
+        "geo": "ca",
+        "url": "https://t.afftrackr.com/?r3x=MalFzuVbZQ9TyGDK5gYqlvGbTL33umGwvQJDRoz7h5U%3d&s1=",
+        "lander": "lululemonlander.png"
+      },
+      {
+        "offer": "lulu-df",
+        "geo": "au",
+        "url": "https://t.afftrackr.com/?oex3=iyX5%2ba7elU1yJI%2bnbmos9xEoyHdmqtiovQJDRoz7h5U%3d&s1=",
+        "lander": "lululemonlander.png"
+      },
+      {
+        "offer": "doordash-fp",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?oex3=MalFzuVbZQ8Ef3NUIpdtZy9z1nLr7RbMvQJDRoz7h5U%3d&s1=",
+        "lander": "doordashlander.png"
+      },
+      {
+        "offer": "doordash-fp",
+        "geo": "ca",
+        "url": "https://t.afftrackr.com/?yte=wEYUA7YCkF%2fBojuhdy8A%2b1r7LqrAS4TsvQJDRoz7h5U%3d&s1=",
+        "lander": "doordashlander.png"
+      },
+      {
+        "offer": "doordash-fp",
+        "geo": "au",
+        "url": "https://t.afftrackr.com/?lnwk=OeGFbmi2Qw9oIhoPTCNuoa8P0sVTibxWvQJDRoz7h5U%3d&s1=",
+        "lander": "doordashlander.png"
+      },
+      {
+        "offer": "doordash-pr",
+        "geo": "us",
+        "url": "https://spnccrzone.com/?es4v=2Lr4gL50yrSjAAX0np6TmTu6KLNOJuf2vQJDRoz7h5U%3d&s1=",
+        "lander": "doordashlander.png"
+      },
+      {
+        "offer": "doordash-pr",
+        "geo": "ca",
+        "url": "https://t.afftrackr.com/?bbz=3ANWFChk9XBplF1YCM805pb4zKzx7rgYvQJDRoz7h5U%3d&s1=",
+        "lander": "doordashlander.png"
+      },
+      {
+        "offer": "eats-df",
+        "geo": "uk",
+        "url": "https://t.afftrackr.com/?oex3=iyX5%2ba7elU3evWJULg2WKe67B%2fzKfWLjvQJDRoz7h5U%3d&s1=",
+        "lander": "uberlander.png"
+      },
+      {
+        "offer": "eats-pr",
+        "geo": "uk",
+        "url": "https://t.afftrackr.com/?r3x=MalFzuVbZQ%2bqtWNbyz3DC9AYqcdF9ZN8vQJDRoz7h5U%3d&s1=",
+        "lander": "uberlander.png"
+      },
+      {
+        "offer": "amazon-fp",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?oex3=iyX5%2ba7elU2%2f%2bwR9369m8VptjMP12YRvvQJDRoz7h5U%3d&s1=",
+        "lander": "amazonlander.png"
+      },
+      {
+        "offer": "amazon-prime",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?nc2u=2Lr4gL50yrTHNC5hgdJi9Bf%2bT%2bLBb52uvQJDRoz7h5U%3d&s1=",
+        "lander": "amazonlander.png"
+      },
+      {
+        "offer": "amazon-pr",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?TTT=2RGXu8VpI3hTmCI%2fkD4C62JPWQ5jEzxHvQJDRoz7h5U%3d&s1=",
+        "lander": "amazonlander.png"
+      }
+    ]
+  },
+  "tapp": {
+    "mappings": [
+    ]
+  }
 }

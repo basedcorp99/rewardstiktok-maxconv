@@ -1,19 +1,106 @@
 {
-  "mappings": [
-    {
-      "geo": "us",
-      "offer": "shein",
-      "network": "fluent",
-      "lander": "sh-spookylander.png",
-      "url": "https://t.afftrackr.com/?eqi=sitLI4hr%2bHO11Qb%2fvNEkQYDNR7%2bwY%2bY%2fvQJDRoz7h5U%3d&s1=",
-      "appendSubId": true
-    },
-    {
-      "offer": "mcdonalds",
-      "network": "tapp",
-      "lander": "mcdonaldslander.png",
-      "url": "https://unlockrwrd.com/A2r0uwE",
-      "appendSubId": false
-    }
-  ]
+  "fluent": {
+    "mappings": [
+      {
+        "offer": "shein",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?lnwk=kMZLdfWdFFty11jBSbM3jKvUk0Z%2ffK4JvQJDRoz7h5U%3d&s1=",
+        "lander": "sheinlander.png"
+      },
+      {
+        "offer": "sh-lim",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?yte=kMZLdfWdFFuLTS%2bB7Gux5aVGiy%2bT543jvQJDRoz7h5U%3d&s1=",
+        "lander": "sh-limlander.png"
+      },
+      {
+        "offer": "sephora",
+        "geo": "us",
+        "url": "https://spnccrzone.com/?lnwk=kMZLdfWdFFvWujRlRZffyRX%2fyKRnzOe6vQJDRoz7h5U%3d&s1=",
+        "lander": "sephoralander.png"
+      },
+      {
+        "offer": "lululemon",
+        "geo": "us",
+        "url": "https://spnccrzone.com/?r3x=mrKQXtAIhm%2bSWlhWicuOpy%2fOg1W4yZLCvQJDRoz7h5U%3d&s1=",
+        "lander": "lululemonlander.png"
+      },
+      {
+        "offer": "target",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?f5c=sL1mpwdZzunDif48XMoQX74tevC8dgt0vQJDRoz7h5U%3d&s1=",
+        "lander": "targetlander.png"
+      },
+      {
+        "offer": "kroger",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?ge4=ls%2bhYZXZ1q6QdPEBFEBDAcgJbT07HLhevQJDRoz7h5U%3d&s1=",
+        "lander": "krogerlander.png"
+      },
+      {
+        "offer": "starbucks",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?ge4=ls%2bhYZXZ1q5fsuY6wY9j0YmB9RPFlTc%2blgDJwpjxrOw%3d&s1=",
+        "lander": "starbuckslander.png"
+      },
+      {
+        "offer": "apple",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?OO=5yEolyN%2bjHzS2uYtcyIpsmOkXxgeJeGrvQJDRoz7h5U%3d&s1=",
+        "lander": "applelander.png"
+      },
+      {
+        "offer": "doordash",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?nc2u=sitLI4hr%2bHP99rN7zoiBKfG3b80suY4avQJDRoz7h5U%3d&s1=",
+        "lander": "doordashlander.png"
+      },
+      {
+        "offer": "shein",
+        "geo": "uk",
+        "url": "https://ftblltrck.com/?f5c=sL1mpwdZzukb6oGMF9L%2fs8WbUP19QbtbvQJDRoz7h5U%3d&s1=",
+        "lander": "sheinlander.png"
+      },
+      {
+        "offer": "sephora",
+        "geo": "uk",
+        "url": "https://ftblltrck.com/?r3x=5eolrmxXhfxZinDS%2b6AQl4vXPq2z327CvQJDRoz7h5U%3d&s1=",
+        "lander": "sephoralander.png"
+      },
+      {
+        "offer": "primark",
+        "geo": "uk",
+        "url": "https://t.afftrackr.com/?r3x=ls%2bhYZXZ1q7%2f24fAMQViSfMQCOglwbiJvQJDRoz7h5U%3d&s1=",
+        "lander": "primarklander.png"
+      }
+    ]
+  },
+  "tapp": {
+    "mappings": [
+      {
+        "offer": "sh-tap",
+        "url": "https://unlockrwrd.com/8Z14IY1",
+        "lander": "sh-taplander.png",
+        "appendSubId": false
+      },
+      {
+        "offer": "sh-tapfp",
+        "url": "https://unlockrwrd.com/w19kHoY",
+        "lander": "sh-tapfplander.png",
+        "appendSubId": false
+      },
+      {
+        "offer": "pandora",
+        "url": "https://unlockrwrd.com/6M16cjw",
+        "lander": "pandoralander.png",
+        "appendSubId": false
+      },
+      {
+        "offer": "mcdonalds",
+        "url": "https://unlockrwrd.com/A2r0uwE",
+        "lander": "mcdonaldslander.png",
+        "appendSubId": false
+      }
+    ]
+  }
 }

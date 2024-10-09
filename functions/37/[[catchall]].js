@@ -1,6 +1,6 @@
 import user37Mappings from '../../config/37.json';
-import { handleRequest } from '../../lib/handleRequest.js'
+import { handleImageLP } from '../../lib/handleImageLP.js'
 
 export async function onRequest(context) {
-  return handleRequest(context, user37Mappings);
+  return handleImageLP(context, user37Mappings);
 }

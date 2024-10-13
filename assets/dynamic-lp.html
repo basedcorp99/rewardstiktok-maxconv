@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Congratulations!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+.congratulations-header {
+    background-color: {{brand_color}};
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.congratulations-header h1 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 35%;
+}
+
+.countries {
+    margin: 10px 0;
+}
+
+.countries p {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.active-offers {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.active-offers p {
+    font-size: 1rem;
+}
+
+.steps {
+    margin: 10px 0;
+}
+
+.steps h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.steps ol {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.steps ol li {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.cta {
+    margin-top: 15px;
+}
+
+.cta button {
+    background-color: {{brand_color}};
+    color: #fff;
+    font-size: 1.5rem;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta button:hover {
+    background-color: {{brand_color}};
+}
+
+.email-notice {
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="congratulations-header">
+        <h1>CONGRATULATIONS 🎉</h1>
+    </div>
+
+    <div class="container">
+        <div class="logo">
+            <!-- Insert your logo here -->
+            <img src="/public/logos/{{brand_logo}}" alt="Logo">
+        </div>
+
+        <div class="countries">
+            <p>Available Countries: 🇺🇸 🇨🇦 🇬🇧 🇦🇺</p>
+        </div>
+
+        <div class="active-offers">
+            <p><strong>9</strong> people are completing the offers</p>
+        </div>
+
+        <div class="steps">
+            <h2>Your Next Steps</h2>
+            <ol>
+                <li>Enter your <strong>BASIC</strong> details 📧</li>
+                <li>Complete <strong>RECOMMENDED</strong> offers 🤝</li>
+                <li>Claim the <strong>REWARDS</strong> 🎉</li>
+            </ol>
+        </div>
+
+        <div class="cta">
+            <a id="cta-link" href="{{target_url}}" rel="noreferrer">
+                <button>Get Started Now!</button>
+            </a>
+            <p class="email-notice">You will receive an email within 10 minutes</p>
+        </div>
+    </div>
+</body>
+</html>

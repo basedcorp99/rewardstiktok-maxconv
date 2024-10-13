@@ -5,7 +5,7 @@
         "offer": "sh",
         "geo": "us",
         "url": "https://t.afftrackr.com/?lnwk=kMZLdfWdFFty11jBSbM3jKvUk0Z%2ffK4JvQJDRoz7h5U%3d&s1=",
-        "lander": "sheinlander.png"
+        "lander": "sheinlander.png"        
       },
       {
         "offer": "sh-lim",
@@ -23,7 +23,8 @@
         "offer": "lululemon",
         "geo": "us",
         "url": "https://spnccrzone.com/?oex3=5yEolyN%2bjHzTUZnzIvGFxpBO5aR26v1rvQJDRoz7h5U%3d&s1=",
-        "lander": "lululemonlander.png"
+        "lander": "lululemonlander.png",
+        "dynlander": "lulu"
       },
       {
         "offer": "target",
@@ -72,6 +73,13 @@
         "geo": "uk",
         "url": "https://t.afftrackr.com/?r3x=ls%2bhYZXZ1q7%2f24fAMQViSfMQCOglwbiJvQJDRoz7h5U%3d&s1=",
         "lander": "primarklander.png"
+      },
+      {
+        "offer": "jd",
+        "geo": "uk",
+        "url": "https://ecom.com",
+        "lander": "jdlander.png",
+        "dynlander": "jd"
       }
     ]
   },

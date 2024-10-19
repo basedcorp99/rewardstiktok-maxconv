@@ -54,14 +54,44 @@ body {
     font-weight: bold;
 }
 
-.active-offers {
-    background-color: #f0f0f0;
-    padding: 10px;
-    border-radius: 10px;
+.active-users-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.active-offers p {
-    font-size: 1rem;
+.circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #E6F3FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    animation: blink 1.5s infinite;
+}
+
+.circle-dot {
+    color: #66B3FF;
+    font-size: 12px;
+}
+
+.counter-text {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+    color: #000;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
 }
 
 .steps {
@@ -77,7 +107,6 @@ body {
 .steps ol {
     list-style-type: none;
     text-align: center;
-    padding-left: 30px;
 }
 
 .steps ol li {
@@ -86,13 +115,14 @@ body {
 }
 
 .cta {
-    margin-top: 15px;
+    margin: 5px;
 }
 
 .cta button {
     background-color: {{brand_color}};
     color: #fff;
     font-size: 1.5rem;
+    font-weight: bold;
     border: none;
     padding: 15px 30px;
     border-radius: 50px;
@@ -104,9 +134,47 @@ body {
     background-color: {{brand_color}};
 }
 
-.email-notice {
-    font-size: 0.9rem;
+.verified {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.faq {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 10px;
     margin-top: 10px;
+    text-align: center;
+}
+
+.faq h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.faq dl {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.faq .faq-item {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 8px;
+    width: 100%; /* Slightly smaller than the FAQ box */
+}
+
+.faq dt {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.faq dd {
+    margin-bottom: 10px;
 }
     </style>
 </head>
@@ -119,14 +187,6 @@ body {
         <div class="logo">
             <!-- Insert your logo here -->
             <img src="/public/logos/{{brand_logo}}" alt="Logo">
-        </div>
-
-        <div class="countries">
-            <p>Available Countries: 🇺🇸 🇨🇦 🇬🇧 🇦🇺</p>
-        </div>
-
-        <div class="active-offers">
-            <p><strong>9</strong> people are completing the offers</p>
         </div>
 
         <div class="steps">
@@ -142,7 +202,32 @@ body {
             <a id="cta-link" href="{{target_url}}" rel="noreferrer">
                 <button>Get Started Now!</button>
             </a>
-            <p class="email-notice">You will receive an email within 10 minutes</p>
+        </div>
+
+        <div class="active-users-container">
+            <!-- <div class="circle">
+                <span class="circle-dot">●</span>
+            </div> -->
+            <span class="counter-text">
+                <span class="counter-number"><span id="counter">57</span> People</span> are completing the deals
+            </span>
+        </div>
+        <div class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <dl>
+            <div class="faq-item">
+                    <dt>How long do the deals take?</dt>
+                    <dd>The offers can typically be completed within <strong>10-15 minutes.</strong></dd>
+            </div>
+            <div class="faq-item">
+                <dt>When will I receive my reward?</dt>
+                <dd>You will receive your rewards <strong>within 24 hours</strong> after completing all the required offers.</dd>
+            </div>
+            <div class="faq-item">
+                <dt>How many deals do I have to do?</dt>
+                <dd>You can do <strong>as many deals as you want</strong>, upon completion of the deals you will receive your reward.</dd>
+            </div>
+        </dl>
         </div>
     </div>
 </body>

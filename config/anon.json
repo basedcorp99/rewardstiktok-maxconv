@@ -127,6 +127,13 @@
         "url": "https://unlockrwrd.com/y9jDTNnFe",
         "lander": "aairlineslander.png",
         "appendSubId": false
+      },
+      {
+        "offer": "ulta",
+        "url": "https://unlockrwrd.com/Yeonh53",
+        "lander": "ultalander.png",
+        "dynlander": "ulta",
+        "appendSubId": false
       }
     ]
   }

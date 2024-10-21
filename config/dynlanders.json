@@ -6,5 +6,9 @@
     "jd": {
         "color": "#000",
         "logo": "jd.png"
+    },
+    "ulta": {
+        "color": "#F57C39",
+        "logo": "ulta.png"
     }
 }

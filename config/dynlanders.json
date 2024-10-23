@@ -10,5 +10,9 @@
     "ulta": {
         "color": "#F57C39",
         "logo": "ulta.png"
+    },
+    "ticketmaster": {
+        "color": "#036BDE",
+        "logo": "ticketmaster.webp"
     }
 }

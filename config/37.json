@@ -181,6 +181,13 @@
         "url": "https://t.afftrackr.com/?oex3=iyX5%2ba7elU3QaR2K9oAJU4jHI4gFd30PvQJDRoz7h5U%3d&s1=",
         "lander": "jdlander.png",
         "dynlander": "jd"
+      },
+      {
+        "offer": "ticketmaster",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?eqi=2Lr4gL50yrSKVTSiZmBx1ohuVvje%2bvtJlgDJwpjxrOw%3d&s1=",
+        "lander": "ticketmasterlander.png",
+        "dynlander": "ticketmaster"
       }
     ]
   },

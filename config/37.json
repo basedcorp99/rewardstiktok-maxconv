@@ -174,6 +174,13 @@
         "geo": "us",
         "url": "https://t.afftrackr.com/?TTT=2RGXu8VpI3hTmCI%2fkD4C62JPWQ5jEzxHvQJDRoz7h5U%3d&s1=",
         "lander": "amazonlander.png"
+      },
+      {
+        "offer": "jd-df",
+        "geo": "uk",
+        "url": "https://t.afftrackr.com/?oex3=iyX5%2ba7elU3QaR2K9oAJU4jHI4gFd30PvQJDRoz7h5U%3d&s1=",
+        "lander": "jdlander.png",
+        "dynlander": "jd"
       }
     ]
   },

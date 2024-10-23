@@ -14,5 +14,9 @@
     "ticketmaster": {
         "color": "#036BDE",
         "logo": "ticketmaster.webp"
+    },
+    "apple": {
+        "color": "#000",
+        "logo": "apple.png"
     }
 }

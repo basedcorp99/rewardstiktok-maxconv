@@ -14,10 +14,11 @@
         "lander": "sheinlander.png"
       },
       {
-        "offer": "jd-df",
+        "offer": "jd",
         "geo": "uk",
         "url": "https://t.afftrackr.com/?oex3=iyX5%2ba7elU3QaR2K9oAJU4jHI4gFd30PvQJDRoz7h5U%3d&s1="
-        "lander": "jdlander.png"
+        "lander": "jdlander.png",
+        "dynlander": "jd"
       },
       {
         "offer": "shein-fp",

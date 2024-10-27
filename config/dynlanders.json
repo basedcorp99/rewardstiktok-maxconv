@@ -18,5 +18,9 @@
     "apple": {
         "color": "#000",
         "logo": "apple.png"
+    },
+    "doordash": {
+        "color": "#f34222",
+        "logo": "doordash.png"
     }
 }

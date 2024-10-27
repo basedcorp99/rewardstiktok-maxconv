@@ -119,7 +119,8 @@
         "offer": "doordash-fp",
         "geo": "us",
         "url": "https://t.afftrackr.com/?oex3=MalFzuVbZQ8Ef3NUIpdtZy9z1nLr7RbMvQJDRoz7h5U%3d&s1=",
-        "lander": "doordashlander.png"
+        "lander": "doordashlander.png",
+        "dynlander": "doordash"
       },
       {
         "offer": "doordash-fp",

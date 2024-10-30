@@ -26,5 +26,9 @@
     "doordash": {
         "color": "#f34222",
         "logo": "doordash.png"
+    },
+    "cash": {
+        "color": "#000",
+        "logo": "cash.png"
     }
 }

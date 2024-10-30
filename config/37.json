@@ -7,7 +7,18 @@
         "url": "https://t.afftrackr.com/?TTT=2RGXu8VpI3iyJ1Fflt2xeMKKGZ5t30S%2bvQJDRoz7h5U%3d&s1=",
         "lander": "sheinlander.png",
         "dynlander": "shein"
-
+      },
+      {
+        "offer": "cash-df",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?TTT=wEYUA7YCkF%2fUxfZUYS7Iit5eNNtIUD%2fTvQJDRoz7h5U%3d&s1=",
+        "dynlander": "cash"
+      },
+      {
+        "offer": "cash-de",
+        "geo": "us",
+        "url": "",
+        "dynlander": "cash"
       },
       {
         "offer": "shein-fp",

@@ -55,7 +55,8 @@
         "offer": "doordash",
         "geo": "us",
         "url": "https://t.afftrackr.com/?nc2u=sitLI4hr%2bHP99rN7zoiBKfG3b80suY4avQJDRoz7h5U%3d&s1=",
-        "lander": "doordashbiglander.jpg"
+        "lander": "doordashbiglander.jpg",
+        "dynlander": "doordash"
       },
       {
         "offer": "shein",

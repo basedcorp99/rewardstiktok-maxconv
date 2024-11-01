@@ -1,34 +1,42 @@
 {
     "lulu": {
         "color": "#D51332",
-        "logo": "lulu.png"
+        "logo": "lulu.png",
+        "quiz_title": "$750 in Lululemon credit!"
     },
     "shein": {
         "color": "#000000",
-        "logo": "sheinlogo.jpg"
+        "logo": "sheinlogo.jpg",
+        "quiz_title": "$750 in Shein credit!"
     },
     "jd": {
         "color": "#000",
-        "logo": "jd.png"
+        "logo": "jd.png",
+        "quiz_title": "$750 in JD Sports credit!"
     },
     "ulta": {
         "color": "#F57C39",
-        "logo": "ulta.png"
+        "logo": "ulta.png",
+        "quiz_title": "$750 in Ulta credit!"
     },
     "ticketmaster": {
         "color": "#036BDE",
-        "logo": "ticketmaster.webp"
+        "logo": "ticketmaster.webp",
+        "quiz_title": "$750 in Ticketmaster credit!"
     },
     "apple": {
         "color": "#000",
-        "logo": "apple.png"
+        "logo": "apple.png",
+        "quiz_title": "$1000 in Apple credit!"
     },
     "doordash": {
         "color": "#f34222",
-        "logo": "doordash.png"
+        "logo": "doordash.png",
+        "quiz_title": "$750 in Doordash credit!"
     },
     "cash": {
         "color": "#000",
-        "logo": "cash.png"
+        "logo": "cash.png",
+        "quiz_title": "$750 in your bank account!"
     }
 }

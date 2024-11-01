@@ -117,6 +117,13 @@
         "url": "https://t.afftrackr.com/?lnwk=sL1mpwdZzumMXZo9Mu3q4WbTRdZwEeAnvQJDRoz7h5U%3d&s1=",
         "lander": "applelander.png",
         "dynlander": "apple"
+      },
+      {
+        "offer": "cash",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?f5c=sL1mpwdZzuklAZuo7YSb%2f13%2fa7arAr6bvQJDRoz7h5U%3d&s1=",
+        "lander": "cashlander.png",
+        "dynlander": "cash"
       }
     ]
   },

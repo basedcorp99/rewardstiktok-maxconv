@@ -38,5 +38,10 @@
         "color": "#000",
         "logo": "cash.png",
         "quiz_title": "$750 in your bank account!"
+    },
+    "amazon": {
+        "color": "#ff9900",
+        "logo": "amazon.webp",
+        "quiz_title": "$750 in Amazon credit!"
     }
 }

@@ -5,14 +5,14 @@
         "offer": "sh",
         "geo": "us",
         "url": "https://t.afftrackr.com/?lnwk=kMZLdfWdFFty11jBSbM3jKvUk0Z%2ffK4JvQJDRoz7h5U%3d&s1=",
-        "lander": "sheinlander.png",
+        "lander": "sh-christmas-750-lim.png",
         "dynlander": "shein"
       },
       {
         "offer": "sh-lim",
         "geo": "us",
         "url": "https://t.afftrackr.com/?yte=kMZLdfWdFFuLTS%2bB7Gux5aVGiy%2bT543jvQJDRoz7h5U%3d&s1=",
-        "lander": "sh-limlander.png",
+        "lander": "sh-christmas-1000-lim.png",
         "dynlander": "shein"
       },
       {
@@ -78,7 +78,7 @@
         "offer": "shein",
         "geo": "uk",
         "url": "https://ftblltrck.com/?f5c=sL1mpwdZzukb6oGMF9L%2fs8WbUP19QbtbvQJDRoz7h5U%3d&s1=",
-        "lander": "sheinlander.png",
+        "lander": "sh-christmas-750-lim.png",
         "dynlander": "shein"
       },
       {
@@ -142,13 +142,13 @@
       {
         "offer": "sh-lim",
         "url": "https://unlockrwrd.com/8Z14IY1",
-        "lander": "sh-limlander.png",
+        "lander": "sh-christmas-1000-lim.png",
         "appendSubId": false
       },
       {
         "offer": "sh",
         "url": "https://unlockrwrd.com/w19kHoY",
-        "lander": "sheinlander.png",
+        "lander": "sh-christmas-750-lim.png",
         "appendSubId": false
       },
       {

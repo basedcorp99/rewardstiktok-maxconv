@@ -175,7 +175,8 @@
         "offer": "amazon-fp",
         "geo": "us",
         "url": "https://t.afftrackr.com/?oex3=iyX5%2ba7elU2%2f%2bwR9369m8VptjMP12YRvvQJDRoz7h5U%3d&s1=",
-        "lander": "amazonlander.png"
+        "lander": "amazonlander.png",
+        "dynlander": "amazon"
       },
       {
         "offer": "amazon-prime",

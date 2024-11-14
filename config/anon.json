@@ -200,6 +200,13 @@
         "lander": "applelander.png",
         "dynlander": "apple",
         "appendSubId": false
+      },
+      {
+        "offer": "aritzia",
+        "url": "https://unlockrwrd.com/2o1QH5b",
+        "lander": "aritzialander.png",
+        "dynlander": "aritzia",
+        "appendSubId": false
       }
     ]
   }

@@ -43,5 +43,10 @@
         "color": "#ff9900",
         "logo": "amazon.webp",
         "quiz_title": "$750 in Amazon credit!"
+    },
+    "aritzia": {
+        "color": "#D79E71",
+        "logo": "aritzia.webp",
+        "quiz_title": "$500 in Aritzia credit!"
     }
 }

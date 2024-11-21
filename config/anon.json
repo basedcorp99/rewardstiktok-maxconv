@@ -129,11 +129,11 @@
         "dynlander": "cash"
       },
       {
-        "offer": "amazon",
+        "offer": "amz",
         "geo": "us",
         "url": "https://t.afftrackr.com/?nc2u=mrKQXtAIhm9VFu%2fp9qvwE4griC9t3swpvQJDRoz7h5U%3d&s1=",
         "lander": "amzlander.png",
-        "dynlander": "amazon"
+        "dynlander": "amz"
       },
       {
         "offer": "eats-df",

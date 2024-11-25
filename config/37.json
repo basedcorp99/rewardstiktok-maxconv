@@ -8,7 +8,7 @@
         "lander": "sheinlander.png",
         "dynlander": "shein"
       },
-            {
+      {
         "offer": "shein-fp-xmas",
         "geo": "us",
         "url": "https://t.afftrackr.com/?lnwk=OeGFbmi2Qw8CISip7UMqY2KD%2bPY6%2fTztvQJDRoz7h5U%3d&s1=",
@@ -184,6 +184,12 @@
         "url": "https://t.afftrackr.com/?oex3=iyX5%2ba7elU2%2f%2bwR9369m8VptjMP12YRvvQJDRoz7h5U%3d&s1=",
         "lander": "amazonlander.png",
         "dynlander": "amazon"
+      },
+      {
+        "offer": "amazon-bf",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?r3x=TVu%2fhLKrnOYWD34fa5mnQwiBOyE%2bWXRCvQJDRoz7h5U%3d&s1=",
+        "lander": "amazonbf.png",
       },
       {
         "offer": "amazon-prime",

@@ -186,6 +186,27 @@
         "dynlander": "amazon"
       },
       {
+        "offer": "amazon-zip",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?lnwk=OeGFbmi2Qw%2bBaATUkFTQpI5c1JAibC6gvQJDRoz7h5U%3d&s1=",
+        "lander": "amazon750.png",
+        "dynlander": "amazon"
+      },
+      {
+        "offer": "amazon-xm-750",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?eqi=2Lr4gL50yrQrPK0mdxB9usevh0v9QxzavQJDRoz7h5U%3d&s1=",
+        "lander": "amazon750.png",
+        "dynlander": "amazon"
+      },
+      {
+        "offer": "amazon-xm-1000",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?oex3=iyX5%2ba7elU1w3zT7cekqyIjVIA2EWxOplgDJwpjxrOw%3d&s1=",
+        "lander": "amazon1000.png",
+        "dynlander": "amazon"
+      },
+      {
         "offer": "amazon-bf",
         "geo": "us",
         "url": "https://t.afftrackr.com/?oex3=iyX5%2ba7elU2%2f%2bwR9369m8VptjMP12YRvvQJDRoz7h5U%3d&s1=",

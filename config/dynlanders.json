@@ -39,10 +39,25 @@
         "logo": "cash.png",
         "quiz_title": "$750 in your bank account!"
     },
+    "cash1k": {
+        "color": "#000",
+        "logo": "cash.png",
+        "quiz_title": "$1000 in your bank account!"
+    },
     "amazon": {
         "color": "#ff9900",
         "logo": "amazon.webp",
         "quiz_title": "your credit!"
+    },
+    "amazon750": {
+        "color": "#ff9900",
+        "logo": "amazon.webp",
+        "quiz_title": "your $750 credit!"
+    },
+    "amazon1k": {
+        "color": "#ff9900",
+        "logo": "amazon.webp",
+        "quiz_title": "your $1000 credit!"
     },
     "aritzia": {
         "color": "#D79E71",

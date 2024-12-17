@@ -46,10 +46,16 @@
         "dynlander": "cash1k"
       },
       {
+        "offer": "cash-1000-dir",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?bbz=3ANWFChk9XDnh3z8sVgMZ9dXukuyoWm7vQJDRoz7h5U%3d&s1=",
+        "dynlander": "cash1k"
+      },
+      {
         "offer": "cash-de", 
         "geo": "us",
         "url": "https://t.afftrackr.com/?es4v=B70mWsioBUOLdLHqBOZZr6zA2kQcuHifvQJDRoz7h5U%3d&s1=",
-        "dynlander": "cash"
+        "dynlander": "cash750"
       },
       {
         "offer": "shein-fp",

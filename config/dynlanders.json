@@ -37,7 +37,7 @@
     "cash": {
         "color": "#000",
         "logo": "cash.png",
-        "quiz_title": "$750 in your bank account!"
+        "quiz_title": "cash in your bank account!"
     },
     "cash750": {
         "color": "#000",

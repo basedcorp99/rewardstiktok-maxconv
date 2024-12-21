@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Rewards</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            font-size: 14px;
+        }
+
+        body {
+            background: linear-gradient(to bottom, white, #f9fafb);
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        #preloader {
+            position: fixed;
+            inset: 0;
+            background: linear-gradient(to bottom, {{cash.gradient_start_color}}, {{cash.gradient_end_color}});
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+            animation: fadeIn 0.6s ease-in-out;
+            transition: opacity 0.6s ease-in-out;
+        }
+
+        #preloader img {
+            width: 8rem;
+            height: 8rem;
+            animation: fadeInAndScale 0.8s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes fadeInAndScale {
+            from { 
+                opacity: 0;
+                transform: scale(0.5);
+            }
+            to { 
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes scaleIn {
+            from { transform: scale(0.98); }
+            to { transform: scale(1); }
+        }
+
+        .alert {
+            position: fixed;
+            top: 1rem;
+            left: 50%;
+            transform: translateX(-50%);
+            background: white;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            width: calc(100% - 2rem);
+            max-width: 20rem;
+            animation: slideDown 0.5s ease-out;
+            border: 1px solid #e5e7eb;
+            z-index: 50;
+            font-size: 0.875rem;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translate(-50%, -100%);
+                opacity: 0;
+            }
+            to {
+                transform: translate(-50%, 0);
+                opacity: 1;
+            }
+        }
+
+        .alert-icon {
+            color: #00D72E;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .main-content {
+            width: 100%;
+            max-width: 24rem;
+            padding: 1rem;
+            margin: 0 auto;
+            padding-bottom: 8rem;
+            opacity: 0;
+            display: block;
+            transform: scale(0.98);
+            zoom: 1.1;
+            transition: all 0.6s ease-in-out;
+        }
+
+        .timer {
+            background: {{cash.gradient_end_color}};
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            font-weight: 600;
+            margin: 1rem 0;
+            font-size: 0.875rem;
+        }
+
+        .card {
+            background: white;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 1rem 0;
+            transition: transform 0.2s;
+            animation: fadeInUp 0.5s ease-out backwards;
+        }
+
+        .card:hover {
+            transform: scale(1.01);
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .card h2 {
+            color: #1f2937;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .check-item {
+            background: #f9fafb;
+            padding: 0.75rem;
+            border-radius: 0.5rem;
+            margin: 0.5rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .check-circle {
+            width: 1.5rem;
+            height: 1.5rem;
+            background: {{cash.gradient_end_color}};
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 0.75rem;
+            flex-shrink: 0;
+        }
+
+        .check-text {
+            flex: 1;
+        }
+
+        .check-title {
+            font-weight: 500;
+            color: #1f2937;
+            font-size: 0.875rem;
+        }
+
+        .check-subtitle {
+            color: {{cash.gradient_end_color}};
+            font-size: 0.75rem;
+        }
+
+        .cta-button {
+            position: fixed;
+            bottom: 1rem;
+            left: 50%;
+            transform: translateX(-50%);
+            background: {{cash.gradient_end_color}};
+            color: white;
+            padding: 0.875rem 2rem;
+            border-radius: 9999px;
+            font-weight: bold;
+            font-size: 1rem;
+            border: none;
+            cursor: pointer;
+            width: calc(100% - 2rem);
+            max-width: 24rem;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            transition: transform 0.2s;
+            z-index: 40;
+            animation: buttonPulse 2s infinite;
+            opacity: 0;
+            transition: opacity 0.6s ease-in-out;
+        }
+
+        @keyframes buttonPulse {
+            0% { transform: translateX(-50%) scale(1); }
+            50% { transform: translateX(-50%) scale(1.02); }
+            100% { transform: translateX(-50%) scale(1); }
+        }
+
+        .cta-button:active {
+            transform: translateX(-50%) scale(0.98);
+        }
+
+        .faq-item {
+            background: #f9fafb;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin: 0.5rem 0;
+        }
+
+        .faq-question {
+            color: {{cash.gradient_end_color}};
+            font-weight: 600;
+            font-size: 0.813rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .faq-answer {
+            color: #4b5563;
+            font-size: 0.75rem;
+        }
+
+        .rewards-img {
+            width: 100%;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .rewards-img:hover {
+            transform: scale(1.02);
+        }
+
+        #nameAlert {
+            display: none;
+        }
+
+        .ripple {
+            position: absolute;
+            background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%);
+            border-radius: 50%;
+            opacity: 0;
+            animation: rippleEffect 2s linear infinite;
+        }
+
+        @keyframes rippleEffect {
+            0% {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+            50% {
+                opacity: 0.2;
+            }
+            100% {
+                transform: scale(2);
+                opacity: 0;
+            }
+        }
+
+        .animated {
+            animation-delay: calc(var(--index) * 0.1s);
+        }
+    </style>
+</head>
+<body>
+    <div id="preloader">
+        <img src="/public/assets/{{cash.preloader_logo}}" alt="{{cash.name}} Logo">
+    </div>
+
+    <div id="nameAlert" class="alert">
+        <div class="alert-icon">{{cash.alert_icon}}</div>
+        <div><span class="name"></span> just received {{cash.reward_amount}}!</div>
+    </div>
+
+    <div class="main-content">
+        <br><br>
+        <img src="/public/assets/{{cash.header_image}}" alt="{{cash.name}} Rewards" class="rewards-img">
+        
+        <div class="timer">
+            ⏰ <span id="timer">29:59</span>
+        </div>
+
+        <div class="card" style="--index: 1">
+            <h2>Quick Start Guide →</h2>
+            <div class="check-item">
+                <div class="check-circle">✓</div>
+                <div class="check-text">
+                    <div class="check-title">Complete 2-3 required deals</div>
+                    <div class="check-subtitle">Earn up to {{cash.reward_amount}}</div>
+                </div>
+            </div>
+            <div class="check-item">
+                <div class="check-circle">✓</div>
+                <div class="check-text">
+                    <div class="check-title">Provide a valid email address</div>
+                    <div class="check-subtitle">For instant notification</div>
+                </div>
+            </div>
+            <div class="check-item">
+                <div class="check-circle">✓</div>
+                <div class="check-text">
+                    <div class="check-title">Ensure you are 18 years or older</div>
+                    <div class="check-subtitle">Required</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="--index: 2">
+            <h2>Common Questions →</h2>
+            <div class="faq-item">
+                <div class="faq-question">How long do the deals take?</div>
+                <div class="faq-answer">Quick 10-20 minute completion time per deal</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">What are deals?</div>
+                <div class="faq-answer">Simple tasks like app downloads, surveys, or trial subscriptions with specific reward goals</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">How many deals do I need?</div>
+                <div class="faq-answer">Complete as many as you want - rewards sent upon completion</div>
+            </div>
+        </div>
+    </div>
+
+    <button class="cta-button" onclick="handleClick()">
+        Start Earning Now →
+        <div class="ripple"></div>
+    </button>
+
+    <script>
+        const NAMES = [
+            'Ava R.', 'Ethan T.', 'Luna W.', 'Caleb R.', 'Aria K.',
+            'Julian P.', 'Piper S.', 'Gabriel L.', 'Sofia G.', 'Alexander T.',
+            'Mia M.', 'Logan D.', 'Isabella W.', 'Benjamin R.', 'Charlotte K.',
+            'Oliver P.', 'Abigail S.', 'Elijah L.', 'Emily G.', 'William T.',
+            'Harper M.', 'Lucas D.', 'Amelia W.', 'Mason R.', 'Evelyn K.',
+            'Liam P.', 'Hannah S.', 'Noah L.', 'Abigail G.', 'Ethan T.'
+        ];
+
+        // Preloader
+        window.addEventListener('load', () => {
+            const preloader = document.getElementById('preloader');
+            const mainContent = document.querySelector('.main-content');
+            const ctaButton = document.querySelector('.cta-button');
+            
+            setTimeout(() => {
+                preloader.style.opacity = '0';
+                mainContent.style.opacity = '1';
+                mainContent.style.transform = 'scale(1)';
+                
+                setTimeout(() => {
+                    preloader.style.display = 'none';
+                    
+                    // Show and animate the button
+                    ctaButton.style.display = 'flex';
+                    setTimeout(() => {
+                        ctaButton.style.opacity = '1';
+                    }, 100);
+                    
+                    // Animate cards
+                    document.querySelectorAll('.card').forEach((card, index) => {
+                        card.style.animationDelay = `${index * 0.1}s`;
+                    });
+                }, 600);
+            }, 1500);
+        });
+
+        // Timer functionality
+        function updateTimer() {
+            const timerElement = document.getElementById('timer');
+            let [minutes, seconds] = timerElement.textContent.split(':').map(Number);
+            
+            if (seconds > 0) {
+                seconds--;
+            } else if (minutes > 0) {
+                minutes--;
+                seconds = 59;
+            }
+            
+            timerElement.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        }
+        setInterval(updateTimer, 1000);
+
+        // Name alert functionality
+        function showNameAlert() {
+            const alert = document.getElementById('nameAlert');
+            const nameSpan = alert.querySelector('.name');
+            const randomName = NAMES[Math.floor(Math.random() * NAMES.length)];
+            
+            nameSpan.textContent = randomName;
+            alert.style.display = 'flex';
+            
+            setTimeout(() => {
+                alert.style.display = 'none';
+            }, 3000);
+        }
+
+        // Only show alerts if window height is sufficient
+        if (window.innerHeight > 600) {
+            setInterval(showNameAlert, 5000);
+            setTimeout(showNameAlert, 2000); // Show first alert after a delay
+        }
+
+        // CTA button click handler
+        function handleClick() {
+            const a = document.createElement('a');
+            a.href = '{{target_url}}';
+            a.rel = 'noreferrer';
+            a.target = '_blank';
+            a.click();
+        }
+
+        // Make all cards clickable
+        document.querySelectorAll('.card, .rewards-img').forEach(element => {
+            element.style.cursor = 'pointer';
+            element.addEventListener('click', handleClick);
+        });
+    </script>
+</body>
+</html>

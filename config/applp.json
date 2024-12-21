@@ -26,4 +26,13 @@
         "gradient_start_color": "#f87171",
         "gradient_end_color": "#ef4444"
     }
+        "lulu750": {
+        "name": "Lululemon $750",
+        "preloader_logo": "lululogo.png",
+        "header_image": "lulu750xmas.png",
+        "alert_icon": "💵",
+        "reward_amount": "$750",
+        "gradient_start_color": "#f87171",
+        "gradient_end_color": "#ef4444"
+    }
 }

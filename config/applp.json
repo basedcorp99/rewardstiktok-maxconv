@@ -1,0 +1,20 @@
+{
+    "cash750": {
+        "name": "Cash Rewards $750",
+        "preloader_logo": "c2.png",
+        "header_image": "cash4.png",
+        "alert_icon": "💵",
+        "reward_amount": "$750",
+        "gradient_start_color": "#86efac",
+        "gradient_end_color": "#22c55e"
+    },
+    "lulu1k": {
+        "name": "Lululemon $1000",
+        "preloader_logo": "lululogo.png",
+        "header_image": "lulu.png",
+        "alert_icon": "💵",
+        "reward_amount": "$1000",
+        "gradient_start_color": "#f87171",
+        "gradient_end_color": "#ef4444"
+    }
+}

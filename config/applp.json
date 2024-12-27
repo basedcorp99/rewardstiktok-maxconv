@@ -17,6 +17,15 @@
         "gradient_start_color": "#86efac",
         "gradient_end_color": "#22c55e"
     },
+    "cash1500": {
+        "name": "Cash Rewards $1,500",
+        "preloader_logo": "c2.png",
+        "header_image": "cash1500.png",
+        "alert_icon": "💵",
+        "reward_amount": "$1,500",
+        "gradient_start_color": "#86efac",
+        "gradient_end_color": "#22c55e"
+    },
     "lulu1k": {
         "name": "Lululemon $1000",
         "preloader_logo": "lululogo.png",

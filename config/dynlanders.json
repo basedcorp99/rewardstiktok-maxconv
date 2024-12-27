@@ -49,6 +49,11 @@
         "logo": "cash1000_2022.png",
         "quiz_title": "$1000 in your bank account!"
     },
+    "cash1500": {
+        "color": "#000",
+        "logo": "cash1000_2022.png",
+        "quiz_title": "$1,500 in your bank account!"
+    },
     "amazon": {
         "color": "#ff9900",
         "logo": "amazon.webp",

@@ -47,10 +47,17 @@
         "dynlander": "cash1k",
         "applander": "cash1k"
       },
-            {
+      {
         "offer": "cash-750-dir",
         "geo": "us",
         "url": "https://t.afftrackr.com/?OO=Gi9BUbKmi7eaPQMadpgCB1COWWzWgQtnvQJDRoz7h5U%3d&s1=",
+        "dynlander": "cash750",
+        "applander": "cash750"
+      },
+      {
+        "offer": "cash-750-nye",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?OO=Gi9BUbKmi7fgmCqzpe9VnN7r06dg6uBsvQJDRoz7h5U%3d&s1=",
         "dynlander": "cash750",
         "applander": "cash750"
       },

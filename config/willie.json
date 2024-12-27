@@ -36,9 +36,16 @@
           "dynlander": "apple"
         },
         {
-          "offer": "cash",
+          "offer": "cash-fp",
           "geo": "us",
           "url": "https://t.afftrackr.com/?oex3=V9DIjO%2bcWbqNl5ee%2fbZSFGPk6hjVpWc0vQJDRoz7h5U%3d&s1=",
+          "lander": "cashlander.png",
+          "dynlander": "cash"
+        },
+        {
+          "offer": "cash",
+          "geo": "us",
+          "url": "https://t.afftrackr.com/?OO=CSx7r9x8CnHfULH95B3eY5nTKfamDxwXvQJDRoz7h5U%3d&s1=",
           "lander": "cashlander.png",
           "dynlander": "cash"
         },

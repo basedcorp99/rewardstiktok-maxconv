@@ -68,5 +68,10 @@
         "color": "#D79E71",
         "logo": "aritzia.webp",
         "quiz_title": "$500 in Aritzia credit!"
+    },
+    "ttshop": {
+        "color": "#000",
+        "logo": "ttshop.webp",
+        "quiz_title": "$750 in TikTok Shop credit!"
     }
 }

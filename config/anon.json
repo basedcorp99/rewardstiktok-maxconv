@@ -160,6 +160,13 @@
         "geo": "us",
         "url": "https://t.afftrackr.com/?OO=ls%2bhYZXZ1q4dWgWmGpDitfpu2%2baznq5rvQJDRoz7h5U%3d&s1=",
         "lander": "uberlander.png"
+      },
+      {
+        "offer": "ttshop",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?OO=ls%2bhYZXZ1q4dWgWmGpDitfpu2%2baznq5rvQJDRoz7h5U%3d&s1=",
+        "lander": "ttshop.png",
+        "dynlander": "ttshop"
       }
     ]
   },

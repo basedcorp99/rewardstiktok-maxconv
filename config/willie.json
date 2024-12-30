@@ -64,6 +64,13 @@
           "dynlander": "amazon"
         },
         {
+          "offer": "amz-lim",
+          "geo": "us",
+          "url": "https://t.afftrackr.com/?ge4=CSx7r9x8CnGSH2xORRlM7GsNIA1W5XELvQJDRoz7h5U%3d&s1=",
+          "lander": "amazon750.png",
+          "dynlander": "amazon"
+        },
+        {
           "offer": "ttshop",
           "geo": "us",
           "url": "https://t.afftrackr.com/?eqi=V9DIjO%2bcWbpavk9nBrq%2fiWE4axzrOayMvQJDRoz7h5U%3d&s1=",

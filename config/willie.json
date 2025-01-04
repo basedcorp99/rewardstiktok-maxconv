@@ -79,8 +79,15 @@
         }
       ]
     },
-    "tapp": {
+    "glitchy": {
       "mappings": [
+        {
+          "offer": "shein-lim",
+          "geo": "us",
+          "url": "https://glstrck.com/aff_c?offer_id=1224&aff_id=30150",
+          "lander": "sh-christmas-750-lim.png",
+          "dynlander": "shein"
+        }
       ]
     }
   }

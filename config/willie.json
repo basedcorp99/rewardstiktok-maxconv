@@ -79,7 +79,7 @@
         }
       ]
     },
-    "glitchy": {
+    "gl": {
       "mappings": [
         {
           "offer": "shein-lim",
@@ -90,5 +90,17 @@
           "appendSubId": false
         }
       ]
-    }
+    },
+  "gl-main": {
+    "mappings": [
+      {
+      "offer": "cash",
+      "geo": "us",
+      "url": "https://glstrck.com/aff_c?offer_id=469&aff_id=1260",
+      "lander": "cashlander.png",
+      "dynlander": "cash",
+      "applander": "cash750"
+      }
+    ]
   }
+}

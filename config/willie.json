@@ -1,107 +1,107 @@
 {
-    "fl": {
-      "mappings": [
-        {
-          "offer": "shein-lim",
-          "geo": "us",
-          "url": "https://t.afftrackr.com/?es4v=ySxygWn2YTDZqQQbFqWAcr7Etes0iPYXvQJDRoz7h5U%3d&s1=",
-          "lander": "sh-christmas-750-lim.png",
-          "dynlander": "shein"
-        },
-        {
-          "offer": "shein-fp",
-          "geo": "us",
-          "url": "https://t.afftrackr.com/?lnwk=RQwj4YWpiaqyJ1Fflt2xeMKKGZ5t30S%2bvQJDRoz7h5U%3d&s1=",
-          "lander": "sh-christmas-750-lim.png",
-          "dynlander": "shein"
-        },
-        {
-          "offer": "sephora-fp",
-          "geo": "us",
-          "url": "https://t.afftrackr.com/?ge4=CSx7r9x8CnFveCJ%2fI%2fZVhZgx7UJGPA4zvQJDRoz7h5U%3d&s1=",
-          "lander": "sephoralander.png"
-        },
-        {
-          "offer": "dd-fp",
-          "geo": "us",
-          "url": "https://t.afftrackr.com/?nc2u=Vh6KOW6RP8bsfFyB6KBbUs6wXz4pfjBZvQJDRoz7h5U%3d&s1=",
-          "lander": "doordashbiglander.jpg",
-          "dynlander": "doordash"
-        },
-        {
-          "offer": "apple-fp",
-          "geo": "us",
-          "url": "https://t.afftrackr.com/?eqi=Vh6KOW6RP8ZmyGVtg%2fbufdnRF54NpIHfvQJDRoz7h5U%3d&s1=",
-          "lander": "applelander.png",
-          "dynlander": "apple"
-        },
-        {
-          "offer": "cash-fp",
-          "geo": "us",
-          "url": "https://t.afftrackr.com/?oex3=V9DIjO%2bcWbqNl5ee%2fbZSFGPk6hjVpWc0vQJDRoz7h5U%3d&s1=",
-          "lander": "cashlander.png",
-          "dynlander": "cash"
-        },
-        {
-          "offer": "cash",
-          "geo": "us",
-          "url": "https://t.afftrackr.com/?OO=CSx7r9x8CnHfULH95B3eY5nTKfamDxwXvQJDRoz7h5U%3d&s1=",
-          "lander": "cashlander.png",
-          "dynlander": "cash",
-          "applander": "cash750"
-        },
-        {
-          "offer": "cash-ny",
-          "geo": "us",
-          "url": "https://t.afftrackr.com/?yte=aGKoY3e4cJqCV%2ftTkSlJn836LFkF0acQvQJDRoz7h5U%3d&s1=",
-          "lander": "cashlander.png",
-          "dynlander": "cash"
-        },
-        {
-          "offer": "amz-fp",
-          "geo": "us",
-          "url": "https://t.afftrackr.com/?eqi=Vh6KOW6RP8bHAKxOnvagd86mR8c5Q1uZvQJDRoz7h5U%3d&s1=",
-          "lander": "amazon750.png",
-          "dynlander": "amazon"
-        },
-        {
-          "offer": "amz-lim",
-          "geo": "us",
-          "url": "https://t.afftrackr.com/?ge4=CSx7r9x8CnGSH2xORRlM7GsNIA1W5XELvQJDRoz7h5U%3d&s1=",
-          "lander": "amazon750.png",
-          "dynlander": "amazon"
-        },
-        {
-          "offer": "ttshop",
-          "geo": "us",
-          "url": "https://t.afftrackr.com/?eqi=V9DIjO%2bcWbpavk9nBrq%2fiWE4axzrOayMvQJDRoz7h5U%3d&s1=",
-          "dynlander": "ttshop"
-        }
-      ]
-    },
-    "gl": {
-      "mappings": [
-        {
-          "offer": "shein-lim",
-          "geo": "us",
-          "url": "https://glstrck.com/aff_c?offer_id=1224&aff_id=30150",
-          "lander": "sh-christmas-750-lim.png",
-          "dynlander": "shein",
-          "appendSubId": false
-        }
-      ]
-    },
-  "gl-main": {
+  "fl": {
     "mappings": [
       {
-      "offer": "cash",
-      "geo": "us",
-      "url": "https://glstrck.com/aff_c?offer_id=469&aff_id=1260",
-      "lander": "cashlander.png",
-      "dynlander": "cash",
-      "applander": "cash750",
-      "appendSubId": false
+        "offer": "shein-lim",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?es4v=ySxygWn2YTDZqQQbFqWAcr7Etes0iPYXvQJDRoz7h5U%3d&s1=",
+        "lander": "sh-christmas-750-lim.png",
+        "dynlander": "shein"
+      },
+      {
+        "offer": "shein-fp",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?lnwk=RQwj4YWpiaqyJ1Fflt2xeMKKGZ5t30S%2bvQJDRoz7h5U%3d&s1=",
+        "lander": "sh-christmas-750-lim.png",
+        "dynlander": "shein"
+      },
+      {
+        "offer": "sephora-fp",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?ge4=CSx7r9x8CnFveCJ%2fI%2fZVhZgx7UJGPA4zvQJDRoz7h5U%3d&s1=",
+        "lander": "sephoralander.png"
+      },
+      {
+        "offer": "dd-fp",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?nc2u=Vh6KOW6RP8bsfFyB6KBbUs6wXz4pfjBZvQJDRoz7h5U%3d&s1=",
+        "lander": "doordashbiglander.jpg",
+        "dynlander": "doordash"
+      },
+      {
+        "offer": "apple-fp",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?eqi=Vh6KOW6RP8ZmyGVtg%2fbufdnRF54NpIHfvQJDRoz7h5U%3d&s1=",
+        "lander": "applelander.png",
+        "dynlander": "apple"
+      },
+      {
+        "offer": "cash-fp",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?oex3=V9DIjO%2bcWbqNl5ee%2fbZSFGPk6hjVpWc0vQJDRoz7h5U%3d&s1=",
+        "lander": "cashlander.png",
+        "dynlander": "cash"
+      },
+      {
+        "offer": "cash",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?OO=CSx7r9x8CnHfULH95B3eY5nTKfamDxwXvQJDRoz7h5U%3d&s1=",
+        "lander": "cashlander.png",
+        "dynlander": "cash",
+        "applander": "cash750"
+      },
+      {
+        "offer": "cash-ny",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?yte=aGKoY3e4cJqCV%2ftTkSlJn836LFkF0acQvQJDRoz7h5U%3d&s1=",
+        "lander": "cashlander.png",
+        "dynlander": "cash"
+      },
+      {
+        "offer": "amz-fp",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?eqi=Vh6KOW6RP8bHAKxOnvagd86mR8c5Q1uZvQJDRoz7h5U%3d&s1=",
+        "lander": "amazon750.png",
+        "dynlander": "amazon"
+      },
+      {
+        "offer": "amz-lim",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?ge4=CSx7r9x8CnGSH2xORRlM7GsNIA1W5XELvQJDRoz7h5U%3d&s1=",
+        "lander": "amazon750.png",
+        "dynlander": "amazon"
+      },
+      {
+        "offer": "ttshop",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?eqi=V9DIjO%2bcWbpavk9nBrq%2fiWE4axzrOayMvQJDRoz7h5U%3d&s1=",
+        "dynlander": "ttshop"
       }
     ]
-  }
+  },
+  "gl": {
+    "mappings": [
+      {
+        "offer": "shein-lim",
+        "geo": "us",
+        "url": "https://glstrck.com/aff_c?offer_id=1224&aff_id=30150",
+        "lander": "sh-christmas-750-lim.png",
+        "dynlander": "shein",
+        "appendSubId": false
+      }
+    ]
+  },
+"gl-main": {
+  "mappings": [
+    {
+    "offer": "cash",
+    "geo": "us",
+    "url": "https://glstrck.com/aff_c?offer_id=469&aff_id=1260",
+    "lander": "cashlander.png",
+    "dynlander": "cash",
+    "applander": "cash750",
+    "appendSubId": false
+    }
+  ]
+}
 }

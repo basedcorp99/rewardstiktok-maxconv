@@ -232,7 +232,8 @@
         "offer": "eats-df",
         "geo": "uk",
         "url": "https://t.afftrackr.com/?oex3=iyX5%2ba7elU3evWJULg2WKe67B%2fzKfWLjvQJDRoz7h5U%3d&s1=",
-        "lander": "uberlander.png"
+        "lander": "uberlander.png",
+        "applander": "ubereats"
       },
       {
         "offer": "eats-pr",

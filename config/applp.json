@@ -26,6 +26,15 @@
         "gradient_start_color": "#86efac",
         "gradient_end_color": "#22c55e"
     },
+    "ubereats": {
+        "name": "Uber Eats £750",
+        "preloader_logo": "eatslogo.png",
+        "header_image": "ubereats750gbp.png",
+        "alert_icon": "💵",
+        "reward_amount": "£750",
+        "gradient_start_color": "#86efac",
+        "gradient_end_color": "#22c55e"
+    },
     "lulu1k": {
         "name": "Lululemon $1000",
         "preloader_logo": "lululogo.png",

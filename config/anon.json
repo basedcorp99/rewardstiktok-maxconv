@@ -126,7 +126,9 @@
         "geo": "us",
         "url": "https://t.afftrackr.com/?f5c=sL1mpwdZzuklAZuo7YSb%2f13%2fa7arAr6bvQJDRoz7h5U%3d&s1=",
         "lander": "cashlander.png",
-        "dynlander": "cash"
+        "dynlander": "cash",
+        "applander": "cash750"
+
       },
       {
         "offer": "cash-xmas",

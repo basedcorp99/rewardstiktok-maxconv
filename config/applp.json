@@ -17,6 +17,15 @@
         "gradient_start_color": "#86efac",
         "gradient_end_color": "#22c55e"
     },
+    "shein750": {
+        "name": "Shein $750",
+        "preloader_logo": "logoshein.png",
+        "header_image": "shein750gc.png",
+        "alert_icon": "💵",
+        "reward_amount": "$1000",
+        "gradient_start_color": "#000",
+        "gradient_end_color": "#fa0754"
+    },
     "cash1500": {
         "name": "Cash Rewards $1,500",
         "preloader_logo": "c2.png",

@@ -86,14 +86,6 @@
         header img {
                 max-height:     60%; /* Mantém a proporção da imagem */
         }
-
-        .flex-centered {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100%;
-            width: auto;
-        }
     </style>
 
 
@@ -235,7 +227,7 @@
                                                     <div style="cursor:default;" class="image-container cimage-4P8wHVkhRs">
                                                         <div>
                                                             <div>
-															 <picture class="hl-image-picture flex-centered" style="display:block;">
+															 <picture class="hl-image-picture" style="display:flex;align-items:center;justify-content:center;height:100%;width:auto;">
                                                                     <source media="(max-width:900px) and (min-width: 768px)" srcset="/public/logos/{{brand_logo}}">
                                                                         <source media="(max-width:768px) and (min-width: 640px)" srcset="/public/logos/{{brand_logo}}">
                                                                             <source media="(max-width:640px) and (min-width: 480px)" srcset="/public/logos/{{brand_logo}}">
@@ -473,8 +465,10 @@
     </style>
 
 
-     <p class="flex-centered"><span style="font-size: 14pt; font-family: Poppins, sans-serif;">Verified by TikTok</span> <img src="https://cdn3.emoji.gg/emojis/13215-verify.png" width="32px" height="32px" alt="Verify"></a>
-
+     <p style="display:flex;align-items:center;justify-content:center;height:100%;width:auto;">
+        <span style="font-size: 14pt; font-family: Poppins, sans-serif;">Verified by TikTok</span>
+        <img src="https://cdn3.emoji.gg/emojis/13215-verify.png" width="32px" height="32px" alt="Verify"></img>
+     </p>
     <script>
         let counter = 56;
         const maxCounter = 127;

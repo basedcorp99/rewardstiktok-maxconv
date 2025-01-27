@@ -3,8 +3,6 @@
 <html lang="en">
 
 <head>
-
-    <base href="/" />
     <meta charset="utf-8">
     <title>Welcome</title>
     <link rel="preconnect" href="https://fonts.gstatic.com/">
@@ -87,6 +85,14 @@
         /* Estilo da imagem */
         header img {
                 max-height:     60%; /* Mantém a proporção da imagem */
+        }
+
+        .flex-centered {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: auto;
         }
     </style>
 
@@ -229,7 +235,7 @@
                                                     <div style="cursor:default;" class="image-container cimage-4P8wHVkhRs">
                                                         <div>
                                                             <div>
-															 <picture class="hl-image-picture" style="display:block;">
+															 <picture class="hl-image-picture flex-centered" style="display:block;">
                                                                     <source media="(max-width:900px) and (min-width: 768px)" srcset="/public/logos/{{brand_logo}}">
                                                                         <source media="(max-width:768px) and (min-width: 640px)" srcset="/public/logos/{{brand_logo}}">
                                                                             <source media="(max-width:640px) and (min-width: 480px)" srcset="/public/logos/{{brand_logo}}">
@@ -467,7 +473,7 @@
     </style>
 
 
-     <p><span style="font-size: 14pt; font-family: Poppins, sans-serif;">Verified by TikTok</span> <img src="https://cdn3.emoji.gg/emojis/13215-verify.png" width="32px" height="32px" alt="Verify"></a>
+     <p class="flex-centered"><span style="font-size: 14pt; font-family: Poppins, sans-serif;">Verified by TikTok</span> <img src="https://cdn3.emoji.gg/emojis/13215-verify.png" width="32px" height="32px" alt="Verify"></a>
 
     <script>
         let counter = 56;
@@ -619,10 +625,10 @@
                                                             </div>
                                                             <ul class="nav-menu">
                                                                 <!--[-->
-                                                                <li class="nav-menu-item"><a aria-label="Terms" href="/index.htmlterms" target>Terms</a>
+                                                                <li class="nav-menu-item"><a aria-label="Terms" href="index.htmlterms" target>Terms</a>
                                                                     <!---->
                                                                 </li>
-                                                                <li class="nav-menu-item"><a aria-label="Privacy Policy" href="/index.htmlu65-privacy-policy" target>Privacy Policy</a>
+                                                                <li class="nav-menu-item"><a aria-label="Privacy Policy" href="index.htmlu65-privacy-policy" target>Privacy Policy</a>
                                                                     <!---->
                                                                 </li>
                                                                 <!--]-->

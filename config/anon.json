@@ -231,6 +231,13 @@
         "lander": "aritzialander.png",
         "dynlander": "aritzia",
         "appendSubId": false
+      },
+      {
+        "offer": "brandy",
+        "url": "https://unlockrwrd.com/BAdaUNQ",
+        "lander": "brandy.png",
+        "dynlander": "brandymelville",
+        "appendSubId": false
       }
     ]
   }

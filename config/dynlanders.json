@@ -78,5 +78,10 @@
         "color": "#000",
         "logo": "ttshop.webp",
         "quiz_title": "your shop credit!"
+    },
+    "brandymelville": {
+        "color": "#F9CAD8",
+        "logo": "brandymelville.png",
+        "quiz_title": "your credit!"
     }
 }

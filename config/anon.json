@@ -177,6 +177,13 @@
         "url": "https://t.afftrackr.com/?ge4=ls%2bhYZXZ1q45Rz5pqY%2bE1xtLqEosMNAkvQJDRoz7h5U%3d&s1=",
         "lander": "brandy.png",
         "dynlander": "brandymelville"
+      },
+      {
+        "offer": "skims",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?lnwk=kMZLdfWdFFvXLZsLdMAtAM5M8tl7QxfJvQJDRoz7h5U%3d&s1=",
+        "lander": "skims.png",
+        "dynlander": "skims"
       }
     ]
   },

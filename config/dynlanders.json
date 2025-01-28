@@ -83,5 +83,10 @@
         "color": "#F9CAD8",
         "logo": "brandymelville.png",
         "quiz_title": "your credit!"
+    },
+    "skims": {
+        "color": "#635448",
+        "logo": "skims.webp",
+        "quiz_title": "your skims credit!"
     }
 }

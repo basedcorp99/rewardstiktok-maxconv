@@ -10,6 +10,30 @@
         "applander": "shein750"
       },
       {
+        "offer": "amazon-spin-750",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?nc2u=MalFzuVbZQ9%2brmo5mCGqgk5U6eK8JcOWvQJDRoz7h5U%3d&s1=",
+        "lander": "amazon750.png",
+        "dynlander": "amazon750",
+        "applander": "amazon750"
+      },
+      {
+        "offer": "amazon-zip-750",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?oex3=iyX5%2ba7elU3AM0mRCcy6gwJJ1ZK%2f4AijvQJDRoz7h5U%3d&s1=",
+        "lander": "amazon750.png",
+        "dynlander": "amazon750",
+        "applander": "amazon750"
+      },
+      {
+        "offer": "amazon-fp-750",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?ge4=TVu%2fhLKrnOa11Qb%2fvNEkQfSLwr7MOfIhvQJDRoz7h5U%3d&s1=",
+        "lander": "amazon750.png",
+        "dynlander": "amazon750",
+        "applander": "amazon750"
+      },
+      {
         "offer": "shein-fp-xmas",
         "geo": "us",
         "url": "https://t.afftrackr.com/?lnwk=OeGFbmi2Qw8CISip7UMqY2KD%2bPY6%2fTztvQJDRoz7h5U%3d&s1=",

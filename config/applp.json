@@ -8,6 +8,15 @@
         "gradient_start_color": "#86efac",
         "gradient_end_color": "#22c55e"
     },
+    "amazon750": {
+        "name": "Amazon Card $750",
+        "preloader_logo": "amazonapp.png",
+        "header_image": "amazoncard.png",
+        "alert_icon": "💵",
+        "reward_amount": "$750",
+        "gradient_start_color": "#000",
+        "gradient_end_color": "#ff9400"
+    },
     "cash1k": {
         "name": "Cash Rewards $1000",
         "preloader_logo": "c2.png",

@@ -27,6 +27,9 @@ async function triggerPixel(context) {
     const clientIp = context.request.headers.get('CF-Connecting-IP') || '0.0.0.0';
     const externalId = clientIp.replace(/\./g, '');
     const eventTime = Math.floor(Date.now() / 1000);
+    const currentUrl = context.request.url;
+
+    console.log(currentUrl)
 
     const postData = {
     event_source: 'web',
@@ -38,6 +41,9 @@ async function triggerPixel(context) {
             user: {
                 external_id: externalId,
             },
+            page: {
+                url: currentUrl,
+            }
         },
     ],
     };

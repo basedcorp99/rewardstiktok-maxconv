@@ -33,19 +33,11 @@ async function triggerPixel(context) {
     event_source_id: 'CUGBUTRC77U09FJDQ1NG',
     data: [
         {
-        event: 'AddToCart',
-        event_time: eventTime,
-        user: {
-            external_id: externalId,
-        },
-        properties: {
-            currency: null,
-            content_type: null,
-        },
-        page: {
-            url: null,
-            referrer: null,
-        },
+            event: 'AddToCart',
+            event_time: eventTime,
+            user: {
+                external_id: externalId,
+            },
         },
     ],
     };

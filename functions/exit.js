@@ -29,10 +29,10 @@ async function triggerPixel(context) {
 
     const postData = {
         event_source: 'web',
-        event_source_id: 'CUGDGU3C77UCOV2DNR5G',
+        event_source_id: 'CUGBUTRC77U09FJDQ1NG',
         data: [
             {
-                event: 'SubmitForm',
+                event: 'AddToCart',
                 event_time: eventTime,
                 user: {
                     external_id: externalId,
@@ -48,7 +48,7 @@ async function triggerPixel(context) {
         const response = await fetch('https://business-api.tiktok.com/open_api/v1.3/event/track/', {
             method: 'POST',
             headers: {
-            'Access-Token': '7d9961ee2d35139edf082d3b935f99320624deac',
+            'Access-Token': '7e2fb7bb248d98da0ed2f7d8ca424f7b47e7fcf8',
             'Content-Type': 'application/json',
             },
             body: JSON.stringify(postData),

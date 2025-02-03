@@ -3,7 +3,7 @@ export async function onRequest(context) {
     const s = url.searchParams;
     const dest = s.get('dest');
 
-    triggerPixel(context);
+    await triggerPixel(context);
 
     const html = `
 <!DOCTYPE html>
@@ -22,46 +22,43 @@ export async function onRequest(context) {
 }
 
 async function triggerPixel(context) {
-    const url = 'https://business-api.tiktok.com/open_api/v1.3/event/track/';
-
     const clientIp = context.request.headers.get('CF-Connecting-IP') || '0.0.0.0';
     const externalId = clientIp.replace(/\./g, '');
     const eventTime = Math.floor(Date.now() / 1000);
     const currentUrl = context.request.url;
 
-    console.log(currentUrl)
-
     const postData = {
-    event_source: 'web',
-    event_source_id: 'CUGBUTRC77U09FJDQ1NG',
-    data: [
-        {
-            event: 'AddToCart',
-            event_time: eventTime,
-            user: {
-                external_id: externalId,
+        event_source: 'web',
+        event_source_id: 'CUGBUTRC77U09FJDQ1NG',
+        data: [
+            {
+                event: 'AddToCart',
+                event_time: eventTime,
+                user: {
+                    external_id: externalId,
+                },
+                page: {
+                    url: currentUrl,
+                }
             },
-            page: {
-                url: currentUrl,
-            }
-        },
-    ],
+        ],
     };
 
     try {
-    const response = await fetch(url, {
-        method: 'POST',
-        headers: {
-        'Access-Token': 'f181c6950d15a4e03eebb4413abd0561917deb79',
-        'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(postData),
-    });
+        const response = await fetch('https://business-api.tiktok.com/open_api/v1.3/event/track/', {
+            method: 'POST',
+            headers: {
+            'Access-Token': 'f181c6950d15a4e03eebb4413abd0561917deb79',
+            'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(postData),
+        });
 
-    const responseData = await response.json();
+        const responseData = await response.json();
 
-    return responseData;
-    } catch (e) {
+        return responseData;
+    } catch (error) {
+        console.log(error)
         return;
     }
 }

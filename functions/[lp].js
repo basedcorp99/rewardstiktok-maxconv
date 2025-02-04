@@ -9,13 +9,8 @@ export async function onRequest(context) {
     const s = url.searchParams;
 
     const lp = context.params.lp;
-    const user = s.get('u');
 
-    if (user === null) {
-        throw new Error(`Missing required parameter: u`);
-    }
-
-    const requiredParams = ['pl', 'g', 'o', 's1'];
+    const requiredParams = ['u', 'n', 'g', 'o', 's1'];
 
     // Extract parameters and validate
     const params = requiredParams.map(param => {

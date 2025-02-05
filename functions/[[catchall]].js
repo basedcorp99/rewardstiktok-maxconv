@@ -5,11 +5,14 @@ import { handlerMap } from '../config/handlerMap.js'
 
 
 export async function onRequest(context) {
-    const lp = context.params.catchall[0];
-    const user = context.params.catchall[1];
+    if (context.params.catchall.length !== 6) {
+        return new Response('Invalid URL', { status: 400 });
+    }
 
-    let usermappings = userMap[user];
+    const catchall = context.params.catchall;
+    const lp = catchall[0];
     let cb = handlerMap[lp];
 
-    return wrapReq(context, usermappings, cb);
+    // slice 1 = remove LP
+    return wrapReq(catchall.slice(1), context, cb);
 }

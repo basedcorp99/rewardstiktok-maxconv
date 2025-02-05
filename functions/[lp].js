@@ -1,6 +1,4 @@
 import { wrapReq } from '../lib/wrapper.js'
-
-import { userMap } from '../config/userMap.js'
 import { handlerMap } from '../config/handlerMap.js'
 
 
@@ -21,8 +19,7 @@ export async function onRequest(context) {
         return value;
     });
 
-    let usermappings = userMap[user];
     let cb = handlerMap[lp];
 
-    return cb(params, usermappings);
+    return wrapReq(params, context, cb);
 }

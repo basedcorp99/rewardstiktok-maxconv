@@ -2,7 +2,8 @@
   "pixel": {
     "PIXEL_ID": "CUGBUTRC77U09FJDQ1NG",
     "EVENTSAPI_ACCESSTOKEN": "7e2fb7bb248d98da0ed2f7d8ca424f7b47e7fcf8",
-    "PIXEL_EVENT": "AddToCart"
+    "PIXEL_VIEW_EVENT": "ViewContent",
+    "PIXEL_CLICK_EVENT": "AddToCart"
   },
   "fl": {
     "mappings": [

@@ -7,11 +7,13 @@ export async function onRequest(context) {
     const s = url.searchParams;
     const dest = s.get('dest');
     const user = s.get('u');
+    const ttclid = s.get('ttclid');
+
 
     const pixel = userMap[user].pixel;
 
     if (pixel) {
-        await triggerPixel(context, pixel);
+        await triggerPixel(context, pixel, ttclid);
     }
     const html = `
 <!DOCTYPE html>

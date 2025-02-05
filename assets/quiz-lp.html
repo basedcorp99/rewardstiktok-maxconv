@@ -421,7 +421,7 @@
     <div class="question-container hidden" id="claimContainer">
         <h2>Thank you!</h2>
         <p>Click below to claim your reward</p>
-     <button class="button" onclick="window.location.href='{{target_url}}';">Claim Now!</button>
+     <button class="button" onclick="handleClick()">Claim Now!</button>
 
     </div>
 
@@ -449,7 +449,13 @@
             updateProgress(75);
         }
 
-        
+        function handleClick() {
+            const a = document.createElement('a');
+            a.href = {{target_url}};
+            a.rel = 'noreferrer';
+            a.target = '_blank';
+            a.click();
+        }
     </script>
 														
 														

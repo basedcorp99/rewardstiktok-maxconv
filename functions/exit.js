@@ -12,7 +12,7 @@ export async function onRequest(context) {
 
     const pixel = userMap[user].pixel;
 
-    if (pixel) {
+    if (pixel && ttclid) {
         triggerPixel(context, pixel, ttclid, pixel.PIXEL_CLICK_EVENT);
     }
     const html = `

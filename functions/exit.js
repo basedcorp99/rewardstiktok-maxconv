@@ -7,10 +7,11 @@ export async function onRequest(context) {
     const s = url.searchParams;
     const dest = s.get('dest');
     const user = s.get('u');
+    const pixel_name = s.get('p');
     const ttclid = s.get('ttclid');
 
 
-    const pixel = userMap[user].pixel;
+    const pixel = userMap[user].pixels?.[pixel_name];
 
     if (pixel && ttclid) {
         triggerPixel(context, pixel, ttclid, pixel.PIXEL_CLICK_EVENT);

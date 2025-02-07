@@ -1,5 +1,11 @@
 {
   "pixel": {
+    "PIXEL_ID": "CUGDGU3C77UCOV2DNR5G",
+    "EVENTSAPI_ACCESSTOKEN": "7d9961ee2d35139edf082d3b935f99320624deac",
+    "PIXEL_VIEW_EVENT": "ViewContent",
+    "PIXEL_CLICK_EVENT": "SubmitForm"
+  },
+  "oldpixel_NEWADAMDIGI": {
     "PIXEL_ID": "CUGBUTRC77U09FJDQ1NG",
     "EVENTSAPI_ACCESSTOKEN": "7e2fb7bb248d98da0ed2f7d8ca424f7b47e7fcf8",
     "PIXEL_VIEW_EVENT": "ViewContent",

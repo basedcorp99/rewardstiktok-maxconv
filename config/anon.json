@@ -12,6 +12,12 @@
       "EVENTSAPI_ACCESSTOKEN": "7e2fb7bb248d98da0ed2f7d8ca424f7b47e7fcf8",
       "PIXEL_VIEW_EVENT": "ViewContent",
       "PIXEL_CLICK_EVENT": "AddToCart"
+    },
+    "AMOG": {
+      "PIXEL_ID": "CTONUF3C77UFAAV37Q00",
+      "EVENTSAPI_ACCESSTOKEN": "678e1ea96d5c915959716b2722f2202fd0e07727",
+      "PIXEL_VIEW_EVENT": "ViewContent",
+      "PIXEL_CLICK_EVENT": "AddToCart"
     }
   },
   "fl": {

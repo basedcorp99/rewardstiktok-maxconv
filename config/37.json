@@ -227,31 +227,40 @@
         "geo": "us",
         "url": "https://t.afftrackr.com/?oex3=MalFzuVbZQ8Ef3NUIpdtZy9z1nLr7RbMvQJDRoz7h5U%3d&s1=",
         "lander": "doordashbiglander.jpg",
-        "dynlander": "doordash"
+        "dynlander": "doordash",
+        "applander": "doordash750"
       },
       {
         "offer": "doordash-fp",
         "geo": "ca",
         "url": "https://t.afftrackr.com/?yte=wEYUA7YCkF%2fBojuhdy8A%2b1r7LqrAS4TsvQJDRoz7h5U%3d&s1=",
-        "lander": "doordashbiglander.jpg"
+        "lander": "doordashbiglander.jpg",
+        "dynlander": "doordash",
+        "applander": "doordash750"
       },
       {
         "offer": "doordash-fp",
         "geo": "au",
         "url": "https://t.afftrackr.com/?lnwk=OeGFbmi2Qw9oIhoPTCNuoa8P0sVTibxWvQJDRoz7h5U%3d&s1=",
-        "lander": "doordashbiglander.jpg"
+        "lander": "doordashbiglander.jpg",
+        "dynlander": "doordash",
+        "applander": "doordash750"
       },
       {
         "offer": "doordash-pr",
         "geo": "us",
         "url": "https://spnccrzone.com/?es4v=2Lr4gL50yrSjAAX0np6TmTu6KLNOJuf2vQJDRoz7h5U%3d&s1=",
-        "lander": "doordashbiglander.jpg"
+        "lander": "doordashbiglander.jpg",
+        "dynlander": "doordash",
+        "applander": "doordash750"
       },
       {
         "offer": "doordash-pr",
         "geo": "ca",
         "url": "https://t.afftrackr.com/?bbz=3ANWFChk9XBplF1YCM805pb4zKzx7rgYvQJDRoz7h5U%3d&s1=",
-        "lander": "doordashbiglander.jpg"
+        "lander": "doordashbiglander.jpg",
+        "dynlander": "doordash",
+        "applander": "doordash750"
       },
       {
         "offer": "eats-df",

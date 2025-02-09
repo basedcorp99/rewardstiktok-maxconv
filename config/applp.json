@@ -79,5 +79,14 @@
         "reward_amount": "$750",
         "gradient_start_color": "#f87171",
         "gradient_end_color": "#ef4444"
+    },
+    "doordash750": {
+        "name": "DoorDash $750",
+        "preloader_logo": "doordashapplogo.png",
+        "header_image": "ddlogo.png",
+        "alert_icon": "💵",
+        "reward_amount": "$750",
+        "gradient_start_color": "#000",
+        "gradient_end_color": "#ff3008"
     }
 }

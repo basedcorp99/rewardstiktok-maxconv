@@ -1,4 +1,13 @@
 {
+  "default_pixel": "EventsPixel1",
+  "pixels": {
+    "EventsPixel1": {
+      "PIXEL_ID": "CULH6SBC77U0037LQHDG",
+      "EVENTSAPI_ACCESSTOKEN": "53e15670b667410e7ee0370ff52aa0abb1674246",
+      "PIXEL_VIEW_EVENT": "ViewContent",
+      "PIXEL_CLICK_EVENT": "SubmitForm"
+    }
+  },
   "fluent": {
     "mappings": [
       {

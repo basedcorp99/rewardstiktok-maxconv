@@ -31,7 +31,7 @@
         "preloader_logo": "logoshein.png",
         "header_image": "shein750gc.png",
         "alert_icon": "💵",
-        "reward_amount": "$1000",
+        "reward_amount": "$750",
         "gradient_start_color": "#000",
         "gradient_end_color": "#fa0754"
     },
@@ -88,5 +88,14 @@
         "reward_amount": "$750",
         "gradient_start_color": "#000",
         "gradient_end_color": "#ff3008"
+    },
+    "playfulrewards": {
+        "name": "Playful Rewards",
+        "preloader_logo": "prewardslogo3.png",
+        "header_image": "prewards.png",
+        "alert_icon": "💵",
+        "reward_amount": "$750",
+        "gradient_start_color": "#000",
+        "gradient_end_color": "#4102f3"
     }
 }

@@ -282,6 +282,13 @@
         "lander": "brandy.png",
         "dynlander": "brandymelville",
         "appendSubId": false
+      },
+      {
+        "offer": "aldi",
+        "url": "https://unlockrwrd.com/vVA3SjZ",
+        "lander": "aldi.png",
+        "dynlander": "aldi",
+        "appendSubId": false
       }
     ]
   }

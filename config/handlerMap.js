@@ -2,6 +2,7 @@ import { handleQuizLP } from '../lib/page-handlers/handleQuizLP.js'
 import { handleDynLP } from '../lib/page-handlers/handleDynLP.js'
 import { handleAppLP } from '../lib/page-handlers/handleAppLP.js'
 import { handleImageLP } from '../lib/page-handlers/handleImageLP.js'
+import { handleQuiz2LP } from '../lib/page-handlers/handleQuiz2LP.js'
 
 export const handlerMap =
 {
@@ -9,4 +10,5 @@ export const handlerMap =
     'dynlan': handleDynLP,
     'app': handleAppLP,
     'img': handleImageLP,
+    'quiz2': handleQuiz2LP,
 }

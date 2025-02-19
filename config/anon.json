@@ -1,6 +1,6 @@
 {
-  "default_pixel": "NEWADAMDIGI",
-  "pixels": {
+  "tt_pixels": {
+    "default_pixel": "NEWADAMDIGI",
     "Final": {
       "PIXEL_ID": "CUGDGU3C77UCOV2DNR5G",
       "EVENTSAPI_ACCESSTOKEN": "7d9961ee2d35139edf082d3b935f99320624deac",
@@ -18,6 +18,12 @@
       "EVENTSAPI_ACCESSTOKEN": "678e1ea96d5c915959716b2722f2202fd0e07727",
       "PIXEL_VIEW_EVENT": "ViewContent",
       "PIXEL_CLICK_EVENT": "AddToCart"
+    }
+  },
+  "fb_pixels": {
+    "default_pixel": "amdigi",
+    "amdigi": {
+      "PIXEL_ID": "1620194525592088"
     }
   },
   "fl": {

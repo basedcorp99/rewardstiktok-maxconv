@@ -11,7 +11,7 @@ export async function onRequest(context) {
     const ttclid = s.get('ttclid');
 
 
-    const pixel = userMap[user].pixels?.[pixel_name];
+    const pixel = userMap[user].tt_pixels?.[pixel_name];
 
     if (pixel && ttclid) {
         triggerPixel(context, pixel, ttclid, pixel.PIXEL_CLICK_EVENT);

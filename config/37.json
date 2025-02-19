@@ -1,6 +1,6 @@
 {
-  "default_pixel": "EventsPixel1",
-  "pixels": {
+  "tt_pixels": {
+    "default_pixel": "EventsPixel1",
     "EventsPixel1": {
       "PIXEL_ID": "CULH6SBC77U0037LQHDG",
       "EVENTSAPI_ACCESSTOKEN": "53e15670b667410e7ee0370ff52aa0abb1674246",

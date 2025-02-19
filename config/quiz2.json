@@ -1,5 +1,8 @@
 {
     "cash1k": {
         "offer_image": "1kcash.png"
+    },
+    "shein": {
+        "offer_image": "shein750gc.png"
     }
 }

@@ -1,0 +1,12 @@
+{
+    "shein750": {
+        "offer_name": "Shein",
+        "offer_value": "$750",
+        "flag": "flag-usa.png"
+    },
+    "amazon750": {
+        "offer_name": "Amazon",
+        "offer_value": "$750",
+        "flag": "flag-usa.png"
+    }
+} 

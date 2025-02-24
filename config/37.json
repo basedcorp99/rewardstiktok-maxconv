@@ -8,6 +8,12 @@
       "PIXEL_CLICK_EVENT": "SubmitForm"
     }
   },
+  "fb_pixels": {
+    "default_pixel": "marvin",
+    "marvin": {
+      "PIXEL_ID": "1821331428632332"
+    }
+  },
   "fluent": {
     "mappings": [
       {
@@ -16,7 +22,9 @@
         "url": "https://t.afftrackr.com/?TTT=2RGXu8VpI3iyJ1Fflt2xeMKKGZ5t30S%2bvQJDRoz7h5U%3d&s1=",
         "lander": "sheinlander.png",
         "dynlander": "shein",
-        "applander": "shein750"
+        "applander": "shein750",
+        "dclp": "shein750"
+
       },
       {
         "offer": "amazon-spin-750",
@@ -32,7 +40,8 @@
         "url": "https://t.afftrackr.com/?oex3=iyX5%2ba7elU3AM0mRCcy6gwJJ1ZK%2f4AijvQJDRoz7h5U%3d&s1=",
         "lander": "amazon750.png",
         "dynlander": "amazon750",
-        "applander": "amazon750"
+        "applander": "amazon750",
+        "dclp": "amazon750"
       },
       {
         "offer": "amazon-fp-750",
@@ -61,7 +70,8 @@
         "geo": "us",
         "url": "https://t.afftrackr.com/?es4v=B70mWsioBUOLdLHqBOZZr6zA2kQcuHifvQJDRoz7h5U%3d&s1=",
         "dynlander": "cash750",
-        "applander": "cash750"
+        "applander": "cash750",
+        "dclp": "amazon750"
       },
       {
         "offer": "cash-1000-rz",

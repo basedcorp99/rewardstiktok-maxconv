@@ -1,33 +1,35 @@
-import { userMap } from '../config/userMap.js'
-
-import { triggerPixel } from '../lib/pixel.js'
+import { userMap } from '../config/userMap.js';
+import { triggerPixel } from '../lib/pixel.js';
 
 export async function onRequest(context) {
-    const url = new URL(context.request.url);
-    const s = url.searchParams;
-    const dest = s.get('dest');
-    const user = s.get('u');
-    const pixel_name = s.get('p');
-    const ttclid = s.get('ttclid');
+    const body = await context.request.json();
+    const { u: user, p: pixel_name, ttclid } = body;
 
-
-    const pixel = userMap[user].tt_pixels?.[pixel_name];
-
-    if (pixel && ttclid) {
-        triggerPixel(context, pixel, ttclid, pixel.PIXEL_CLICK_EVENT);
+    if (!user || !pixel_name || !ttclid) {
+        return errorResponse("Missing required fields: u, p, ttclid");
     }
-    const html = `
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="referrer" content="no-referrer" />
-        <meta name="robots" content="noindex,nofollow" />
-        <meta http-equiv="refresh" content="0;url=${dest}" />
-    </head>
-</html>
-`
-    return new Response(html, {
-        headers: { 'Content-Type': 'text/html' },
+
+    const pixel = userMap[user]?.tt_pixels?.[pixel_name];
+
+    if (!pixel) {
+        return errorResponse("Pixel not found");
+    }
+
+    triggerPixel(context, pixel, ttclid, pixel.PIXEL_CLICK_EVENT);
+
+    return new Response(JSON.stringify({ success: true }), {
+        status: 200,
+        headers: jsonHeaders(),
+    });
+}
+
+function jsonHeaders() {
+    return { "Content-Type": "application/json" };
+}
+
+function errorResponse(message, status = 400) {
+    return new Response(JSON.stringify({ error: message }), {
+        status,
+        headers: jsonHeaders(),
     });
 }

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <title>EarnOppCenter</title>
+
+    <link rel="icon" href="img/fav.png">
+
+    <script type="text/javascript">
+		let vh = window.innerHeight * 0.01;
+		document.documentElement.style.setProperty('--vh', `${vh}px`);
+	</script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/dc/css/style.css">
+
+    <style>
+    /* Update survey page styling */
+    .page-survey {
+        display: none;
+        min-height: 100vh;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        background-color: #fff3dd;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .page-survey.active {
+        opacity: 1;
+        display: block;
+    }
+
+    .page-main {
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .page-main.fade-out {
+        opacity: 0;
+    }
+
+    /* Welcome page styling */
+    .page-survey .welcome {
+        text-align: center;
+        padding: 2rem 1rem;
+        background-color: var(--secondary-light); /* Yellow background only for welcome */
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    /* Add quiz section background */
+    .page-survey .quiz {
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    .page-survey .analizer {
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    .page-survey .welcome .img {
+        max-width: 280px;
+        margin: 0 auto 2rem;
+    }
+
+    .page-survey .welcome .img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .page-survey .welcome h1 {
+        margin-bottom: 1rem;
+        font-weight: 700;
+    }
+
+    .page-survey .welcome p {
+        margin-bottom: 2rem;
+        font-size: 1.1rem;
+    }
+
+    .page-survey .welcome .answers {
+        margin-top: 2rem;
+    }
+
+    .page-survey .welcome .answers .btn {
+        min-width: 200px;
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+    }
+
+    /* Remove the old survey-section styles since we're not using them anymore */
+    .survey-section {
+        display: none;
+    }
+    </style>
+</head>
+<body>
+    <!-- First "page" - Main landing -->
+    <div class="page-main">
+        <div class="screen">
+            <header>
+                <div class="container">
+                    <div class="row">
+                        <div class="logo">
+                            <img src="/public/dc/images/logo.svg" alt="EarnOppCenter Logo">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="limited-offer">
+                    <strong>Limited Spots</strong>
+                </div>
+            </header>
+
+            <section class="hero" style="padding-bottom: 0;">
+                <div class="container">
+                    <div class="row">
+                        <div class="inner">
+                            <h1>Get Your <strong class="primary">{{offer_value}}</strong> <strong class="primary">{{offer_name}}</strong></h1>
+                            <!-- <p class="main-subtitle">plus <span class="primary">$750</span> for reviews</p> -->
+                            <div class="reviews">
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p>4.9 reviewers rate</p>
+                            </div>
+                            <div class="alert-box">
+                                <p>Only 2 Left Remaining, Act Fast</p>
+                            </div>
+                            <div class="list">
+                                <div>
+                                    <img src="/public/dc/images/check.svg" alt="">
+                                    <p>No experience required</p>
+                                </div>
+                                <div>
+                                    <img src="/public/dc/images/check.svg" alt="">
+                                    <p>Only complete 3-5 deals</p>
+                                </div>
+                                <div>
+                                    <img src="/public/dc/images/check.svg" alt="">
+                                    <p>Claim your rewards</p>
+                                </div>
+                            </div>
+                            <div class="form">
+                                <div class="question" data-question="1">
+                                    <div class="form-group">
+                                        <label for="zip">ZIP</label>
+                                        <input type="text" name="zip" class="form-control" id="zip" placeholder="What's your zip code?" maxlength="5">
+                                    </div>
+                                    <div class="btn-group">
+                                        <button class="btn btn-primary btn-banner">
+                                            <p>Start Now</p>
+                                            <div class="banner">
+                                                <p>Only in USA</p>
+                                                <img src="/public/dc/images/{{flag}}" alt="USA Flag">
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="question" data-question="2">
+                                    <div class="form-group">
+                                        <label for="firstname">First Name</label>
+                                        <input type="text" name="firstname" class="form-control" id="firstname" placeholder="John">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="lastname">Last Name</label>
+                                        <input type="text" name="lastname" class="form-control" id="lastname" placeholder="Doe">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" name="email" class="form-control" id="email" placeholder="example@gmail.com">
+                                    </div>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-primary">Continue</button>
+                                    </div>
+                                </div>
+                                <div class="question" data-question="3">
+                                    <div class="form-group">
+                                        <label for="phone">Phone</label>
+                                        <input type="phone" name="phone" class="form-control" id="phone" placeholder="(000) 000-0000" autocomplete="off" maxlength="14">
+                                    </div>
+                                    <div class="rules">
+                                        <p>By clicking "Submit", I agree to email marketing, <a href="" target="_blank">Terms &amp;  <br>Conditions</a> including mandatory arbitration, <a href="" target="_blank">Privacy Policy</a></p>
+                                    </div>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-primary" id="showSurvey" onclick="triggerPixel()">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Second "page" - Survey -->
+    <div class="page-survey">
+        <div class="screen">
+            <header style="opacity: 0;">
+                <div class="container">
+                    <div class="row">
+                        <div class="logo">
+                            <img src="/public/dc/images/logo.svg" alt="EarnOppCenter Logo">
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="hero">
+                <div class="container">
+                    <div class="row">
+                        <div class="inner">
+                            <div class="welcome">
+                                <div class="img">
+                                    <img src="/public/dc/images/welcome-img.png" alt="">
+                                </div>
+                                <h1>Welcome!</h1>
+                                <p>Start with a short survey to receive the best earning opportunity for <strong class="primary">{{offer_name}}</strong></p>
+                                <div class="answers">
+                                    <button type="button" class="btn btn-primary">Continue</button>
+                                </div>
+                            </div>
+
+                            <div class="progress" style="opacity: 0;">
+                                <div class="row">
+                                    <div class="progress-container">
+                                        <div class="progress-inner">
+                                            <div class="circle-container active"><p class="circle"><span>1</span></p></div>
+                                            <div class="line-container">
+                                                <div class="line"></div>
+                                                <div class="line-green"></div>
+                                            </div>
+                                            <div class="circle-container"><p class="circle"><span>2</span></p></div>
+                                            <div class="line-container">
+                                                <div class="line"></div>
+                                                <div class="line-green"></div>
+                                            </div>
+                                            <div class="circle-container"><p class="circle"><span>3</span></p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="quiz">
+                                <div class="question" data-question="1">
+                                    <div class="title">
+                                        <h5>Have you ever submitted <br> a <strong class="secondary">product review?</strong></h5>
+                                    </div>
+                                    <div class="answers">
+                                        <button type="button" class="btn btn-primary">Yes</button>
+                                        <button type="button" class="btn btn-primary">No</button>
+                                    </div>
+                                </div>
+                                <div class="question" data-question="2">
+                                    <div class="title">
+                                        <h5>How much <strong class="secondary">free time</strong><br> do you have every day?</h5>
+                                    </div>
+                                    <div class="answers">
+                                        <button type="button" class="btn btn-primary">1 to 3 hours</button>
+                                        <button type="button" class="btn btn-primary">3 to 5 hours</button>
+                                        <button type="button" class="btn btn-primary">5 to 8 hours</button>
+                                    </div>
+                                </div>
+                                <div class="question" data-question="3">
+                                    <div class="title">
+                                        <h5>About how many times per <br> month you order at <strong class="secondary">{{offer_name}}?</strong></h5>
+                                    </div>
+                                    <div class="answers">
+                                        <button type="button" class="btn btn-primary"><3</button>
+                                        <button type="button" class="btn btn-primary">3-7</button>
+                                        <button type="button" class="btn btn-primary">7+</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="analizer">
+                                <p><i>We analyze your responses</i></p>
+                            </div>
+
+                            <div class="congratulation">
+                                <div class="tags">
+                                    <p>Best Fit for You</p>
+                                </div>
+                                <h2>Get your <strong>{{offer_value}}</strong> {{offer_name}} 🎁 <strong>Now</strong></h2>
+                                <strong class="info data">
+                                    <script>
+                                    (() => {
+                                        let _currentDate = new Date();
+                                        let _currentMonth = _currentDate.getMonth();
+                                        let _currentYear = _currentDate.getFullYear();
+                                        let _lastDay = new Date(_currentYear, _currentMonth + 1, 0).getDate();
+                                        let _monthAbbreviations = ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+                                        let _currentMonthAbbreviation = _monthAbbreviations[_currentMonth];
+                                        let _resultString = `Offer expires ${_currentMonthAbbreviation} ${_lastDay} at 11:59pm EST`;
+                                        document.write(_resultString);
+                                    })()
+                                    </script>
+                                </strong>
+                                <div class="btn-group">
+                                    <button class="btn btn-primary" onclick="handleClick()">YES, Get Started Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <section class="faq" style="margin-top: 0; padding-top: 0;">
+        <div class="container">
+            <div class="row">
+                <div class="title">
+                    <h2 class="h1">Frequently Asked Questions</h2>
+                </div>
+                <div class="content">
+                    <div class="item active">
+                        <div class="visible">
+                            <span class="circle"></span>
+                            <h6>What is EarnOppCenter ?</h6>
+                            <div class="figure">
+                                <img src="/public/dc/images/pros.svg" alt="">
+                                <img src="/public/dc/images/cons.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="hidden">
+                            <p>EarnOppCenter  is a dynamic platform designed to help individuals discover and excel in various income-generating opportunities. Our mission is to connect people with the tools and resources they need to achieve financial growth.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="visible">
+                            <span class="circle"></span>
+                            <h6>Does it cost me anything?</h6>
+                            <div class="figure">
+                                <img src="/public/dc/images/pros.svg" alt="">
+                                <img src="/public/dc/images/cons.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="hidden">
+                            <p>No, signing up for EarnOppCenter  is completely free. We offer unlimited access to exclusive earning opportunities and a supportive community to guide you on your journey.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="visible">
+                            <span class="circle"></span>
+                            <h6>Is it difficult to complete?</h6>
+                            <div class="figure">
+                                <img src="/public/dc/images/pros.svg" alt="">
+                                <img src="/public/dc/images/cons.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="hidden">
+                            <p>Not at all! EarnOppCenter caters to everyone—from complete beginners to experienced professionals. Our step-by-step guidance ensures that you can start earning, regardless of your background or expertise.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="visible">
+                            <span class="circle"></span>
+                            <h6>When do I get paid?</h6>
+                            <div class="figure">
+                                <img src="/public/dc/images/pros.svg" alt="">
+                                <img src="/public/dc/images/cons.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="hidden">
+                            <p> For a majority of our deals, you get paid out RIGHT AWAY!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="visible">
+                            <span class="circle"></span>
+                            <h6>Are there any time restrictions?</h6>
+                            <div class="figure">
+                                <img src="/public/dc/images/pros.svg" alt="">
+                                <img src="/public/dc/images/cons.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="hidden">
+                            <p>No, you have complete flexibility. Whether you prefer working part-time, full-time, or on your own schedule, EarnOppCenter  provides opportunities that adapt to your lifestyle.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>   
+
+    <footer>
+        <div class="container">
+           <!-- <div class="row row-top">
+                <div class="inner">
+                    <div class="description">
+                        <p>To access samples, deals, giveaways, coupons, sweepstakes, or any other offers ("Deals") through the links available on UplevelRewards you may be required to share your personal information, respond to survey questions, and agree to be contacted by our marketing partners. UplevelRewards does not guarantee the availability of Deal(s) facilitated through our website or that they will meet your requirements since they are offered as well as monitored by third parties and are provided on the website for convenience purposes only.</p>
+                        <p>We shall not be liable for the unavailability of any Deals, for any reasons, including but not limited to, third-party terms and conditions associated with such Deals, change in qualification criteria related to such Deals, denial of service, communication lapses, or any other reasons due to which the Deals become unavailable. We may receive compensation, at no cost to you, when you participate in the third- party offers available on our website. All third-party names (including company and service names), graphics, and logos used here are trademarks or registered trademarks of such third parties. Use of them here does not imply any affiliation with or endorsement by such third- parties.</p>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="row row--middle">
+                <div class="inner">
+                    <div class="logo">
+                        <img src="/public/dc/images/logo.svg" alt="">
+                    </div>
+                    <nav>
+                        <a href="">Privacy Policy</a>
+                        <a href="">Terms and Conditions</a>
+                        <a href="" class="mailto">Contact Us</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row row-copy">
+                    <p>Copyright © <script>var currentYear = new Date().getFullYear();document.write(currentYear);</script> <span class="domain"></span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js" integrity="sha512-0XDfGxFliYJPFrideYOoxdgNIvrwGTLnmK20xZbCAvPfLGQMzHUsaqZK8ZoH+luXGRxTrS46+Aq400nCnAT0/w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    
+    <script src="/public/dc/scripts/global.js"></script>
+    <script src="/public/dc/scripts/main.js"></script>
+    <script src="/public/dc/scripts/survey.js"></script>
+    <script>
+        let secrets;
+
+        let zipcode, email, firstname, lastname, phone, secret;
+
+        async function triggerPixel() {
+            zipcode = $("[name=zip]").val();
+            email = $("[name=email]").val();
+            firstname = $("[name=firstname]").val();
+            lastname = $("[name=lastname]").val();
+            phone = $("[name=phone]").val().replaceAll("(", "").replaceAll(")", "").replaceAll(" ", "").replaceAll("-", "");
+            secret = '{{target_url}}';
+
+            const response = await fetch("https://fcrelay.click/api/pixel", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    zipcode,
+                    firstname,
+                    lastname,
+                    email,
+                    phone,
+                    secret
+                })
+            });
+
+            const data = await response.json();
+
+            if (!data.error) {
+                secrets = data.secret;
+            }
+        }
+        // CTA button click handler
+        function handleClick() {
+            {{trigger_ttpixel}}
+            fbq('track', 'CompleteRegistration', {
+                name: `${firstname} ${lastname}`,
+                email,
+                phone,
+                zipcode,
+            })
+            const a = document.createElement('a');
+            a.href = secrets;
+            a.rel = 'noreferrer';
+            a.target = '_blank';
+            a.click();
+        }
+
+        // Make all cards clickable
+        document.querySelectorAll('.card, .rewards-img').forEach(element => {
+            element.style.cursor = 'pointer';
+            element.addEventListener('click', handleClick);
+        });
+    </script>
+</body>
+</html>

@@ -70,14 +70,25 @@
         "geo": "us",
         "url": "https://t.afftrackr.com/?es4v=B70mWsioBUOLdLHqBOZZr6zA2kQcuHifvQJDRoz7h5U%3d&s1=",
         "dynlander": "cash750",
-        "applander": "cash750",
-        "dclp": "amazon750"
+        "applander": "cash750"
       },
       {
         "offer": "cash-1000-rz",
         "geo": "us",
         "url": "https://www.ps06hg9t.com/BD4RZZ/BCFZ3Q/?sub1=",
         "dynlander": "cash1k"
+      },
+      {
+        "offer": "amazon-fp-meta",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?nc2u=2Lr4gL50yrRy11jBSbM3jPZK4U9mdapWvQJDRoz7h5U%3d&s1=",
+        "dclp": "amazon750"
+      },
+      {
+        "offer": "amazon-chip-meta",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?yte=wEYUA7YCkF%2fsuMP0lW2E7Vp4ykHmpkC2vQJDRoz7h5U%3d&s1=",
+        "dclp": "amazon750"
       },
       {
         "offer": "cash-750",
@@ -301,7 +312,8 @@
         "geo": "us",
         "url": "https://t.afftrackr.com/?oex3=iyX5%2ba7elU2%2f%2bwR9369m8VptjMP12YRvvQJDRoz7h5U%3d&s1=",
         "lander": "amazon750.png",
-        "dynlander": "amazon750"
+        "dynlander": "amazon750",
+        "dclp": "amazon750"
       },
       {
         "offer": "amazon-zip",

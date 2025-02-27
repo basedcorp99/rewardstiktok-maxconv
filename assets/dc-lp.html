@@ -103,6 +103,64 @@
     .survey-section {
         display: none;
     }
+
+    /* Update survey page styling */
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        z-index: 1000;
+        overflow-y: auto;
+    }
+
+    .modal-content {
+        background: #fff;
+        margin: 50px auto;
+        padding: 20px;
+        width: 90%;
+        max-width: 800px;
+        position: relative;
+        border-radius: 8px;
+        max-height: 80vh;
+        overflow-y: auto;
+    }
+
+    .modal-close {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        font-size: 24px;
+        cursor: pointer;
+        color: #666;
+    }
+
+    .modal h2 {
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .modal p {
+        margin-bottom: 15px;
+        font-size: 14px;
+        line-height: 1.6;
+        color: #666;
+    }
+
+    .modal ul {
+        margin-bottom: 15px;
+        padding-left: 20px;
+    }
+
+    .modal li {
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.6;
+        color: #666;
+    }
     </style>
 </head>
 <body>
@@ -333,14 +391,14 @@
                     <div class="item active">
                         <div class="visible">
                             <span class="circle"></span>
-                            <h6>What is EarnOppCenter ?</h6>
+                            <h6>What is EarnOppCenter?</h6>
                             <div class="figure">
                                 <img src="/public/dc/images/pros.svg" alt="">
                                 <img src="/public/dc/images/cons.svg" alt="">
                             </div>
                         </div>
                         <div class="hidden">
-                            <p>EarnOppCenter  is a dynamic platform designed to help individuals discover and excel in various income-generating opportunities. Our mission is to connect people with the tools and resources they need to achieve financial growth.</p>
+                            <p>EarnOppCenter is a dynamic platform designed to help individuals discover and excel in various income-generating opportunities. Our mission is to connect people with the tools and resources they need to achieve financial growth.</p>
                         </div>
                     </div>
                     <div class="item">
@@ -419,7 +477,7 @@
                     <nav>
                         <a href="">Privacy Policy</a>
                         <a href="">Terms and Conditions</a>
-                        <a href="" class="mailto">Contact Us</a>
+                        <a href="mailto:support@earnoppcenter.com" class="mailto">Contact Us</a>
                     </nav>
                 </div>
             </div>
@@ -429,6 +487,12 @@
             <div class="container">
                 <div class="row row-copy">
                     <p>Copyright © <script>var currentYear = new Date().getFullYear();document.write(currentYear);</script> <span class="domain"></span></p>
+                    <div class="disclaimers" style="font-size: 8px; color: #666; margin-top: 10px; line-height: 1.2;">
+                        <p>All brand names and trademarks mentioned on this site belong to their respective owners and are not connected to this promotion. This special offer concludes at the close of 2025.</p>
+                        <p>This site is independent of the Facebook website and Facebook Inc. Furthermore, this site is not supported by Facebook in any way. Facebook is a registered trademark of Facebook, Inc.</p>
+                        <p>To access samples, deals, giveaways, coupons, sweepstakes, or any other offers ("Deals") through the links available on UplevelRewards you may be required to share your personal information, respond to survey questions, and agree to be contacted by our marketing partners. UplevelRewards does not guarantee the availability of Deal(s) facilitated through our website or that they will meet your requirements since they are offered as well as monitored by third parties and are provided on the website for convenience purposes only.</p>
+                        <p>We shall not be liable for the unavailability of any Deals, for any reasons, including but not limited to, third-party terms and conditions associated with such Deals, change in qualification criteria related to such Deals, denial of service, communication lapses, or any other reasons due to which the Deals become unavailable. We may receive compensation, at no cost to you, when you participate in the third- party offers available on our website. All third-party names (including company and service names), graphics, and logos used here are trademarks or registered trademarks of such third parties. Use of them here does not imply any affiliation with or endorsement by such third- parties.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -494,6 +558,138 @@
             element.style.cursor = 'pointer';
             element.addEventListener('click', handleClick);
         });
+    </script>
+
+    <!-- Privacy Policy Modal -->
+    <div id="privacyModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('privacyModal')">&times;</span>
+            <h2>Privacy Policy</h2>
+            <p>Last updated: <script>document.write(new Date().toLocaleDateString())</script></p>
+            
+            <h3>1. Information We Collect</h3>
+            <p>We collect information that you provide directly to us, including:</p>
+            <ul>
+                <li>Name and contact information (email address, phone number, mailing address)</li>
+                <li>Demographic information (age, gender, location)</li>
+                <li>Survey responses and preferences</li>
+                <li>Information about your interactions with our services</li>
+            </ul>
+
+            <h3>2. How We Use Your Information</h3>
+            <p>We use the information we collect to:</p>
+            <ul>
+                <li>Provide, maintain, and improve our services</li>
+                <li>Process your requests and transactions</li>
+                <li>Send you technical notices, updates, and support messages</li>
+                <li>Communicate with you about products, services, offers, and promotions</li>
+                <li>Personalize your experience and deliver content tailored to your interests</li>
+            </ul>
+
+            <h3>3. Information Sharing</h3>
+            <p>We may share your information with:</p>
+            <ul>
+                <li>Service providers and business partners who assist in operating our services</li>
+                <li>Advertisers and marketing partners (with your consent)</li>
+                <li>Law enforcement or government agencies when required by law</li>
+            </ul>
+
+            <h3>4. Data Security</h3>
+            <p>We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.</p>
+
+            <h3>5. Your Rights</h3>
+            <p>You have the right to:</p>
+            <ul>
+                <li>Access your personal information</li>
+                <li>Correct inaccurate information</li>
+                <li>Request deletion of your information</li>
+                <li>Opt-out of marketing communications</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Terms and Conditions Modal -->
+    <div id="termsModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal('termsModal')">&times;</span>
+            <h2>Terms and Conditions</h2>
+            <p>Last updated: <script>document.write(new Date().toLocaleDateString())</script></p>
+
+            <h3>1. Acceptance of Terms</h3>
+            <p>By accessing and using this website, you accept and agree to be bound by these Terms and Conditions and our Privacy Policy. If you do not agree to these terms, please do not use our services.</p>
+
+            <h3>2. Service Description</h3>
+            <p>We provide a platform for users to access various promotional offers, deals, and earning opportunities. Our service includes:</p>
+            <ul>
+                <li>Access to exclusive deals and promotions</li>
+                <li>Opportunity to participate in surveys and rewards programs</li>
+                <li>Information about products and services from our partners</li>
+            </ul>
+
+            <h3>3. User Obligations</h3>
+            <p>Users agree to:</p>
+            <ul>
+                <li>Provide accurate and complete information</li>
+                <li>Maintain the confidentiality of their account information</li>
+                <li>Use the service in compliance with all applicable laws</li>
+                <li>Not engage in any fraudulent or deceptive practices</li>
+            </ul>
+
+            <h3>4. Promotional Offers</h3>
+            <p>All offers are subject to:</p>
+            <ul>
+                <li>Availability and may be withdrawn at any time</li>
+                <li>Specific terms and conditions of each offer</li>
+                <li>Verification of eligibility</li>
+                <li>Geographic and other restrictions</li>
+            </ul>
+
+            <h3>5. Disclaimer</h3>
+            <p>Our services are provided "as is" without any warranties. We do not guarantee:</p>
+            <ul>
+                <li>Continuous, uninterrupted access to our services</li>
+                <li>The availability of specific offers or rewards</li>
+                <li>The accuracy of third-party information</li>
+            </ul>
+
+            <h3>6. Limitation of Liability</h3>
+            <p>We shall not be liable for any indirect, incidental, special, or consequential damages resulting from the use or inability to use our services.</p>
+        </div>
+    </div>
+
+    <script>
+    // Modal functionality
+    function openModal(modalId) {
+        document.getElementById(modalId).style.display = 'block';
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }
+
+    // Close modal when clicking outside
+    window.onclick = function(event) {
+        if (event.target.className === 'modal') {
+            event.target.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+    }
+
+    // Update the nav links to open modals
+    document.addEventListener('DOMContentLoaded', function() {
+        const navLinks = document.querySelectorAll('nav a');
+        navLinks.forEach(link => {
+            if (link.textContent === 'Privacy Policy') {
+                link.href = 'javascript:void(0)';
+                link.onclick = () => openModal('privacyModal');
+            } else if (link.textContent === 'Terms and Conditions') {
+                link.href = 'javascript:void(0)';
+                link.onclick = () => openModal('termsModal');
+            }
+        });
+    });
     </script>
 </body>
 </html>

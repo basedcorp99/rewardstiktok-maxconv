@@ -49,6 +49,23 @@
         opacity: 0;
     }
 
+    /* Gift card image styling */
+    .gift-card-banner {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+        background: transparent;
+    }
+    
+    .gift-card-banner img {
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        display: block;
+    }
+
     /* Welcome page styling */
     .page-survey .welcome {
         text-align: center;
@@ -187,6 +204,10 @@
                         <div class="inner">
                             <h1>Get Your <strong class="primary">{{offer_value}}</strong> <strong class="primary">{{offer_name}}</strong></h1>
                             <!-- <p class="main-subtitle">plus <span class="primary">$750</span> for reviews</p> -->
+                            <!-- Gift Card Banner -->
+                            <div class="gift-card-banner">
+                                <img src="/public/dc/images/{{gift_card_image}}" alt="Gift Card">
+                            </div>
                             <div class="reviews">
                                 <div class="stars">
                                     <i class="fa-solid fa-star"></i>
@@ -198,7 +219,7 @@
                                 <p>4.9 reviewers rate</p>
                             </div>
                             <div class="alert-box">
-                                <p>Only 2 Left Remaining, Act Fast</p>
+                                <p>Only <span style="text-decoration: underline;">Few</span> Remaining, Act Fast</p>
                             </div>
                             <div class="list">
                                 <div>
@@ -355,7 +376,7 @@
                                 <div class="tags">
                                     <p>Best Fit for You</p>
                                 </div>
-                                <h2>Get your <strong>{{offer_value}}</strong> {{offer_name}} 🎁 <strong>Now</strong></h2>
+                                <h2>Get your <strong> {{offer_name}} {{offer_value}} Now 🎁</strong></h2>
                                 <strong class="info data">
                                     <script>
                                     (() => {

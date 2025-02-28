@@ -24,7 +24,12 @@
         "dynlander": "shein",
         "applander": "shein750",
         "dclp": "shein750"
-
+      },
+      {
+        "offer": "walmart-meta",
+        "geo": "us",
+        "url": "",
+        "dclp": "walmart1000"
       },
       {
         "offer": "amazon-spin-750",

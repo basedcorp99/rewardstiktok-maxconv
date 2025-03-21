@@ -93,5 +93,10 @@
         "color": "#000951",
         "logo": "aldi.png",
         "quiz_title": "your aldi's credit!"
+    },
+    "venmo750": {
+        "color": "#3c95d2",
+        "logo": "venmoapp.png",
+        "quiz_title": "your $750 credit!"
     }
 }

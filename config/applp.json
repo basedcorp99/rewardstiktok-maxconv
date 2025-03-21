@@ -97,5 +97,14 @@
         "reward_amount": "$750",
         "gradient_start_color": "#000",
         "gradient_end_color": "#4102f3"
+    },
+    "venmo750": {
+        "name": "Venmo $750",
+        "preloader_logo": "venmoapp.png",
+        "header_image": "venmo750.png",
+        "alert_icon": "💵",
+        "reward_amount": "$750",
+        "gradient_start_color": "#fff",
+        "gradient_end_color": "#3c95d2"
     }
 }

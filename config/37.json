@@ -26,6 +26,22 @@
         "dclp": "shein750"
       },
       {
+        "offer": "venmo-df",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?f5c=wEYUA7YCkF8W%2fn2KlfhNNf1yzQv0AR%2b5vQJDRoz7h5U%3d&s1=",
+        "applander": "venmo750",
+        "dynlander": "venmo750"
+      },
+      {
+        "offer": "auto",
+        "geo": "us",
+        "url": "https://getyourtracking.com/?a=983&c=2478&p=r&s1=",
+        "lander": "",
+        "dynlander": "",
+        "applander": "",
+        "dclp": ""
+      },
+      {
         "offer": "walmart-meta",
         "geo": "us",
         "url": "https://t.afftrackr.com/?es4v=OeGFbmi2Qw%2bA7qVTiZ%2fWLR1%2b325MSUg0lgDJwpjxrOw%3d&s1=",

@@ -54,14 +54,17 @@
         "geo": "us",
         "url": "https://spnccrzone.com/?oex3=5yEolyN%2bjHzTUZnzIvGFxpBO5aR26v1rvQJDRoz7h5U%3d&s1=",
         "lander": "lululemonlander.png",
-        "dynlander": "lulu"
+        "dynlander": "lulu",
+        "applander": "lulu750"
+
       },
       {
         "offer": "lululemon-fp",
         "geo": "us",
         "url": "https://t.afftrackr.com/?lnwk=kMZLdfWdFFu2UPlyLbn9tclGWbHYmNUQvQJDRoz7h5U%3d&s1=",
         "lander": "lululemonlander.png",
-        "dynlander": "lulu"
+        "dynlander": "lulu",
+        "applander": "lulu750"
       },
       {
         "offer": "target",
@@ -192,13 +195,15 @@
         "offer": "eats-df",
         "geo": "uk",
         "url": "https://t.afftrackr.com/?TTT=5yEolyN%2bjHwkeUpYa6z4wANOXx18W5uevQJDRoz7h5U%3d&s1=",
-        "lander": "uberlander.png"
+        "lander": "uberlander.png",
+        "applander": "ubereats"
       },
       {
         "offer": "eats-df",
         "geo": "us",
         "url": "https://t.afftrackr.com/?OO=ls%2bhYZXZ1q4dWgWmGpDitfpu2%2baznq5rvQJDRoz7h5U%3d&s1=",
-        "lander": "uberlander.png"
+        "lander": "uberlander.png",
+        "applander": "ubereats"
       },
       {
         "offer": "ttshop",

@@ -34,14 +34,16 @@
         "url": "https://t.afftrackr.com/?lnwk=kMZLdfWdFFty11jBSbM3jKvUk0Z%2ffK4JvQJDRoz7h5U%3d&s1=",
         "lander": "sh-christmas-750-lim.png",
         "dynlander": "shein",
-        "quiz2lander": "shein"
+        "quiz2lander": "shein",
+        "applander": "shein750"
       },
       {
         "offer": "sh-lim",
         "geo": "us",
         "url": "https://t.afftrackr.com/?yte=kMZLdfWdFFuLTS%2bB7Gux5aVGiy%2bT543jvQJDRoz7h5U%3d&s1=",
         "lander": "sh-christmas-1000-lim.png",
-        "dynlander": "shein"
+        "dynlander": "shein",
+        "applander": "shein750"
       },
       {
         "offer": "sephora",
@@ -110,7 +112,8 @@
         "geo": "uk",
         "url": "https://ftblltrck.com/?f5c=sL1mpwdZzukb6oGMF9L%2fs8WbUP19QbtbvQJDRoz7h5U%3d&s1=",
         "lander": "sh-christmas-750-lim.png",
-        "dynlander": "shein"
+        "dynlander": "shein",
+        "applander": "shein750"
       },
       {
         "offer": "sephora",

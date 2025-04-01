@@ -306,5 +306,17 @@
         "appendSubId": false
       }
     ]
+  },
+  "glitchy": {
+    "mappings": [
+      {
+        "offer": "playful",
+        "geo": "us",
+        "url": "https://glstrck.com/aff_c?offer_id=1337&aff_id=1891&source=",
+        "lander": "",
+        "dynlander": "",
+        "applander": "playfulrewards"
+      }
+    ]
   }
 }

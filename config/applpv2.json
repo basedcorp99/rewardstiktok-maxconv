@@ -1,0 +1,46 @@
+{
+    "cash750": {
+        "name": "Cash",
+        "app_logo": "cash2.png",
+        "alert_icon": "💵",
+        "reward_amount": "$750",
+        "site_bg_color": "#86efac",
+        "claim_button_color": "#22c55e",
+        "amount_color": "#22c55e",
+        "amount_subtitle_color": "#22c55e",
+        "offer_title_color": "#22c55e"
+    },
+    "cash1k": {
+        "name": "Cash",
+        "app_logo": "cash2.png",
+        "alert_icon": "💵",
+        "reward_amount": "$1000",
+        "site_bg_color": "#86efac",
+        "claim_button_color": "#22c55e",
+        "amount_color": "#22c55e",
+        "amount_subtitle_color": "#22c55e",
+        "offer_title_color": "#22c55e"
+    },
+    "ttshop750": {
+        "name": "TikTok Shop",
+        "app_logo": "ttshop.png",
+        "alert_icon": "💵",
+        "reward_amount": "$750",
+        "site_bg_color": "#de8c9d",
+        "claim_button_color": "#fe2858",
+        "amount_color": "#fe2858",
+        "amount_subtitle_color": "#040404",
+        "offer_title_color": "#040404"
+    }, 
+    "shein750": {
+        "name": "Shein",
+        "app_logo": "sheinlogo.png",
+        "alert_icon": "💵",
+        "reward_amount": "$750",
+        "site_bg_color": "##fbe5c6",
+        "claim_button_color": "#f45646",
+        "amount_color": "#f45646",
+        "amount_subtitle_color": "#040404",
+        "offer_title_color": "#040404"
+    }         
+} 

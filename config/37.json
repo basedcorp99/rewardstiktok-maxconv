@@ -23,7 +23,8 @@
         "lander": "sheinlander.png",
         "dynlander": "shein",
         "applander": "shein750",
-        "dclp": "shein750"
+        "dclp": "shein750",
+        "appv2": "shein750"
       },
       {
         "offer": "venmo-df",
@@ -84,20 +85,23 @@
         "geo": "us",
         "url": "https://t.afftrackr.com/?OO=Gi9BUbKmi7eCtfUBcEil%2bNGlZ8azp5I2vQJDRoz7h5U%3d&s1=",
         "applander": "ttshop",
-        "dynlander": "ttshop"
+        "dynlander": "ttshop",
+        "appv2": "ttshop750"
       },
       {
         "offer": "cash-df",
         "geo": "us",
         "url": "https://t.afftrackr.com/?es4v=B70mWsioBUOLdLHqBOZZr6zA2kQcuHifvQJDRoz7h5U%3d&s1=",
         "dynlander": "cash750",
-        "applander": "cash750"
+        "applander": "cash750",
+        "appv2": "cash750"
       },
       {
         "offer": "cash-1000-rz",
         "geo": "us",
         "url": "https://www.ps06hg9t.com/BD4RZZ/BCFZ3Q/?sub1=",
-        "dynlander": "cash1k"
+        "dynlander": "cash1k",
+        "appv2": "cash1k"
       },
       {
         "offer": "amazon-fp-meta",
@@ -135,7 +139,8 @@
         "url": "https://t.afftrackr.com/?bbz=3ANWFChk9XDnh3z8sVgMZ9dXukuyoWm7vQJDRoz7h5U%3d&s1=",
         "dynlander": "cash1k",
         "applander": "cash1k",
-        "quiz2lander": "cash1k"
+        "quiz2lander": "cash1k",
+        "appv2": "cash1k"
       },
       {
         "offer": "cash-750-dir",
@@ -177,6 +182,7 @@
         "geo": "uk",
         "url": "https://t.afftrackr.com/?yte=2RGXu8VpI3gcoj0YeMBlImggc2cvjkF2vQJDRoz7h5U%3d&s1=",
         "lander": "sheinlander.png"
+
       },
       {
         "offer": "shein-fp",

@@ -35,7 +35,8 @@
         "lander": "sh-christmas-750-lim.png",
         "dynlander": "shein",
         "quiz2lander": "shein",
-        "applander": "shein750"
+        "applander": "shein750",
+        "appv2": "shein750"
       },
       {
         "offer": "sh-lim",
@@ -168,7 +169,8 @@
         "url": "https://t.afftrackr.com/?f5c=sL1mpwdZzuklAZuo7YSb%2f13%2fa7arAr6bvQJDRoz7h5U%3d&s1=",
         "lander": "cashlander.png",
         "dynlander": "cash",
-        "applander": "cash750"
+        "applander": "cash750",
+        "appv2": "cash750"
 
       },
       {

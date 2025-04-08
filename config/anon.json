@@ -315,7 +315,8 @@
         "url": "https://glstrck.com/aff_c?offer_id=1337&aff_id=1891&source=",
         "lander": "",
         "dynlander": "",
-        "applander": "playfulrewards"
+        "applander": "playfulrewards",
+        "appv2": "playful"
       },
       {
         "offer": "cash",

@@ -173,6 +173,24 @@
         "appv2": "cash750"
       },
       {
+        "offer": "cash-1000",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?bbz=lQl2gnESfxCEKtRqZL9hgGYPmmwt3fzLvQJDRoz7h5U%3d&s1=",
+        "lander": "cashlander.png",
+        "dynlander": "cash",
+        "applander": "cash1k",
+        "appv2": "cash1k"
+      },
+      {
+        "offer": "cash-1000",
+        "geo": "uk",
+        "url": "https://ftblltrck.com/?f5c=sL1mpwdZzunju2kK7vn%2baOjl8g4EnS9KvQJDRoz7h5U%3d&s1=",
+        "lander": "cashlander.png",
+        "dynlander": "cash",
+        "applander": "cash1k",
+        "appv2": "cash1k"
+      },
+      {
         "offer": "cash-xmas",
         "geo": "us",
         "url": "https://spnccrzone.com/?es4v=lQl2gnESfxBQUWXeJYqTxHkkLxvYrP55vQJDRoz7h5U%3d&s1=",

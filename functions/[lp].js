@@ -1,4 +1,5 @@
 import { wrapReq } from '../lib/wrapper.js'
+import { mapGeoToCountry } from '../lib/wrapper_helpers.js'
 import { handlerMap } from '../config/handlerMap.js'
 
 
@@ -8,16 +9,25 @@ export async function onRequest(context) {
 
     const lp = context.params.lp;
 
-    const requiredParams = ['u', 'n', 'g', 'o', 's1'];
-
-    // Extract parameters and validate
-    const params = requiredParams.map(param => {
-        const value = s.get(param);
+    const shortKeys = {
+        u: 'user',
+        n: 'network',
+        o: 'offer',
+        s1: 'subid',
+    };
+    
+    const params = {};
+    
+    // Required fields
+    for (const [short, full] of Object.entries(shortKeys)) {
+        const value = s.get(short);
         if (value === null) {
-            throw new Error(`Missing required parameter: ${param}`);
+            throw new Error(`Missing required parameter: ${short}`);
         }
-        return value;
-    });
+        params[full] = value;
+    }
+    // Optional geo with required throwing fallback
+    params.geo = s.get('g') ?? mapGeoToCountry(context.request);
 
     let cb = handlerMap[lp];
 

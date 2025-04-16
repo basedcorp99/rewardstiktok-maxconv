@@ -43,6 +43,39 @@
         "amount_subtitle_color": "#040404",
         "offer_title_color": "#040404"
     },
+    "paypal500": {
+        "name": "PayPal",
+        "app_logo": "paypallogo.png",
+        "alert_icon": "💵",
+        "reward_amount": "$500",
+        "site_bg_color": "#c6e6fb",
+        "claim_button_color": "#467df4",
+        "amount_color": "#467df4",
+        "amount_subtitle_color": "#040404",
+        "offer_title_color": "#040404"
+    },
+    "paypal750": {
+        "name": "PayPal",
+        "app_logo": "paypallogo.png",
+        "alert_icon": "💵",
+        "reward_amount": "$750",
+        "site_bg_color": "#c6e6fb",
+        "claim_button_color": "#467df4",
+        "amount_color": "#467df4",
+        "amount_subtitle_color": "#040404",
+        "offer_title_color": "#040404"
+    },
+    "paypal1000": {
+        "name": "PayPal",
+        "app_logo": "paypallogo.png",
+        "alert_icon": "💵",
+        "reward_amount": "$1000",
+        "site_bg_color": "#c6e6fb",
+        "claim_button_color": "#467df4",
+        "amount_color": "#467df4",
+        "amount_subtitle_color": "#040404",
+        "offer_title_color": "#040404"
+    },
     "playful": {
         "name": "Test apps and get paid!",
         "header_plain": true,

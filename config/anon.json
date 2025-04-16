@@ -263,8 +263,20 @@
       },
       {
         "offer": "paypal750",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?yte=kMZLdfWdFFsIjWsIgjs0zxrcu7Uw3EyxvQJDRoz7h5U%3d&s1=",
+        "appv2": "paypal750"
+      },
+      {
+        "offer": "paypal750",
         "geo": "ca",
         "url": "https://t.afftrackr.com/?ge4=ls%2bhYZXZ1q7mz%2bbw%2fcwKO3A%2bpSRxMcoVvQJDRoz7h5U%3d&s1=",
+        "appv2": "paypal750"
+      },
+      {
+        "offer": "paypal750",
+        "geo": "uk",
+        "url": "https://t.afftrackr.com/?r3x=5eolrmxXhfz%2f6IB9j6kjei7ygSb%2fVaH8vQJDRoz7h5U%3d&s1=",
         "appv2": "paypal750"
       },
       {

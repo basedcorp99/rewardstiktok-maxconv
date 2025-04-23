@@ -166,12 +166,22 @@
       {
         "offer": "cash",
         "geo": "us",
-        "url": "",
+        "url": "https://t.afftrackr.com/?es4v=gqbBGOqXYEF06L8L56GEdbKhfgsK0nJKvQJDRoz7h5U%3d&s1=",
         "lander": "cashlander.png",
         "dynlander": "cash",
         "applander": "cash750",
         "appv2": "cash750"
       },
+   {
+        "offer": "cash",
+        "geo": "uk",
+        "url": "https://t.afftrackr.com/?lnwk=HJDKMP175L5g6PjllhQaSKBz%2b%2fHHsY2fvQJDRoz7h5U%3d&s1=",
+        "lander": "cashlander.png",
+        "dynlander": "cash",
+        "applander": "cash750",
+        "appv2": "cash750"
+      },
+
       {
         "offer": "cash-1000",
         "geo": "us",

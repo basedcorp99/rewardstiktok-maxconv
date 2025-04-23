@@ -4,6 +4,7 @@ import userWillieMappings from './willie.json';
 
 export const userMap = {
     'ab': userAnonMappings,
+    'fm': userAnonMappings,
     '37': user37Mappings,
     'wi': userWillieMappings,
 }

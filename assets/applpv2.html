@@ -66,6 +66,7 @@
             animation: logoShine 3s infinite;
             display: block;
             margin: 0 auto;
+            border-radius: 8px;
         }
 
         @keyframes logoShine {
@@ -293,7 +294,7 @@
         <div class="reward-card">
             <div class="app-logo-container">
                 <img alt="{{cash.name}}" width="100" height="100" class="app-logo" src="/public/assets/{{cash.app_logo}}">
-                <div class="cash-text">{{cash.name}} Balance</div>
+                <div class="cash-text">{{cash.name}}{{header_balance}}</div>
                 <img alt="Verified" width="80" height="80" class="verd-logo" src="/public/assets/verd.png">
             </div>
             <div id="amount" class="amount">{{cash.currency_symbol}}{{cash.reward_amount}}</div>

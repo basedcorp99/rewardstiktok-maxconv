@@ -3,60 +3,109 @@
     "name": "Cash",
     "app_logo": "cash2.png",
     "alert_icon": "💵",
-    "reward_amount": "750",
-    "currency_symbol": "$",
+    "reward_amount": "$750",
     "site_bg_color": "#86efac",
     "claim_button_color": "#22c55e",
     "amount_color": "#22c55e",
     "amount_subtitle_color": "#22c55e",
-    "offer_title_color": "#22c55e"
+    "offer_title_color": "#22c55e",
+    "currency_symbol": "$"
   },
   "cash1k": {
     "name": "Cash",
     "app_logo": "cash2.png",
     "alert_icon": "💵",
-    "reward_amount": "1000",
-    "currency_symbol": "$",
+    "reward_amount": "$1000",
     "site_bg_color": "#86efac",
     "claim_button_color": "#22c55e",
     "amount_color": "#22c55e",
     "amount_subtitle_color": "#22c55e",
-    "offer_title_color": "#22c55e"
+    "offer_title_color": "#22c55e",
+    "currency_symbol": "$"
   },
   "cash1kuk": {
     "name": "Cash",
     "app_logo": "cash2.png",
     "alert_icon": "💵",
-    "reward_amount": "1000",
-    "currency_symbol": "£",
+    "reward_amount": "$1000",
     "site_bg_color": "#86efac",
     "claim_button_color": "#22c55e",
     "amount_color": "#22c55e",
     "amount_subtitle_color": "#22c55e",
-    "offer_title_color": "#22c55e"
+    "offer_title_color": "#22c55e",
+    "currency_symbol": "£"
   },
   "ttshop750": {
     "name": "TikTok Shop",
     "app_logo": "ttshop.png",
     "alert_icon": "💵",
-    "reward_amount": "750",
-    "currency_symbol": "$",
+    "reward_amount": "$750",
     "site_bg_color": "#de8c9d",
     "claim_button_color": "#fe2858",
     "amount_color": "#fe2858",
     "amount_subtitle_color": "#040404",
-    "offer_title_color": "#040404"
+    "offer_title_color": "#040404",
+    "currency_symbol": "$"
   },
   "shein750": {
     "name": "Shein",
     "app_logo": "sheinlogo.png",
     "alert_icon": "💵",
-    "reward_amount": "750",
-    "currency_symbol": "$",
+    "reward_amount": "$750",
     "site_bg_color": "##fbe5c6",
     "claim_button_color": "#f45646",
     "amount_color": "#f45646",
     "amount_subtitle_color": "#040404",
-    "offer_title_color": "#040404"
+    "offer_title_color": "#040404",
+    "currency_symbol": "$"
+  },
+  "paypal500": {
+    "name": "PayPal",
+    "app_logo": "paypallogo.png",
+    "alert_icon": "💵",
+    "reward_amount": "$500",
+    "site_bg_color": "#c6e6fb",
+    "claim_button_color": "#467df4",
+    "amount_color": "#467df4",
+    "amount_subtitle_color": "#040404",
+    "offer_title_color": "#040404",
+    "currency_symbol": "$"
+  },
+  "paypal750": {
+    "name": "PayPal",
+    "app_logo": "paypallogo.png",
+    "alert_icon": "💵",
+    "reward_amount": "$750",
+    "site_bg_color": "#c6e6fb",
+    "claim_button_color": "#467df4",
+    "amount_color": "#467df4",
+    "amount_subtitle_color": "#040404",
+    "offer_title_color": "#040404",
+    "currency_symbol": "$"
+  },
+  "paypal1000": {
+    "name": "PayPal",
+    "app_logo": "paypallogo.png",
+    "alert_icon": "💵",
+    "reward_amount": "$1000",
+    "site_bg_color": "#c6e6fb",
+    "claim_button_color": "#467df4",
+    "amount_color": "#467df4",
+    "amount_subtitle_color": "#040404",
+    "offer_title_color": "#040404",
+    "currency_symbol": "$"
+  },
+  "playful": {
+    "name": "Test apps and get paid!",
+    "header_plain": true,
+    "app_logo": "prewardslogo3.png",
+    "alert_icon": "💵",
+    "reward_amount": "$1000",
+    "site_bg_color": "#fbe5c6",
+    "claim_button_color": "#FAC804",
+    "amount_color": "#AA5800",
+    "amount_subtitle_color": "#040404",
+    "offer_title_color": "#040404",
+    "currency_symbol": "$"
   }
 }

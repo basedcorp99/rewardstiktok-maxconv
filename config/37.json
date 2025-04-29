@@ -143,6 +143,12 @@
         "appv2": "cash1k"
       },
       {
+        "offer": "cash-1000-dir",
+        "geo": "uk",
+        "url": "https://t.afftrackr.com/?OO=Gi9BUbKmi7fg9CxjkgpxehIBAOFbuvLBvQJDRoz7h5U%3d&s1=",
+        "appv2": "cash1kuk"
+      },
+      {
         "offer": "cash-750-dir",
         "geo": "us",
         "url": "https://t.afftrackr.com/?OO=Gi9BUbKmi7eaPQMadpgCB1COWWzWgQtnvQJDRoz7h5U%3d&s1=",
@@ -172,7 +178,7 @@
         "applander": "cash750"
       },
       {
-        "offer": "cash-de", 
+        "offer": "cash-de",
         "geo": "us",
         "url": "https://t.afftrackr.com/?es4v=B70mWsioBUOLdLHqBOZZr6zA2kQcuHifvQJDRoz7h5U%3d&s1=",
         "dynlander": "cash750"
@@ -182,7 +188,6 @@
         "geo": "uk",
         "url": "https://t.afftrackr.com/?yte=2RGXu8VpI3gcoj0YeMBlImggc2cvjkF2vQJDRoz7h5U%3d&s1=",
         "lander": "sheinlander.png"
-
       },
       {
         "offer": "shein-fp",
@@ -195,7 +200,7 @@
         "geo": "au",
         "url": "https://t.afftrackr.com/?eqi=iyX5%2ba7elU0Frqp4TlXn1ocA1lddy%2f71vQJDRoz7h5U%3d&s1=",
         "lander": "sheinlander.png"
-      }, 
+      },
       {
         "offer": "shein-pr",
         "geo": "us",
@@ -404,8 +409,7 @@
     ]
   },
   "tapp": {
-    "mappings": [
-    ]
+    "mappings": []
   },
   "glitchy": {
     "mappings": [

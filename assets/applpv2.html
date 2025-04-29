@@ -287,7 +287,7 @@
     <div id="particles-js" style="position:fixed;width:100%;height:100%;z-index:1"></div>
     <div id="nameAlert">
         <span style="font-size: 24px;">💵</span>
-        <div><span class="name">Olivia M.</span> claimed {{cash.reward_amount}}!</div>
+        <div><span class="name">Olivia M.</span> claimed {{cash.currency_symbol}}{{cash.reward_amount}}!</div>
     </div>
     <div class="page-container">
         <div class="reward-card">
@@ -296,7 +296,7 @@
                 <div class="cash-text">{{cash.name}} Balance</div>
                 <img alt="Verified" width="80" height="80" class="verd-logo" src="/public/assets/verd.png">
             </div>
-            <div id="amount" class="amount">{{cash.reward_amount}}</div>
+            <div id="amount" class="amount">{{cash.currency_symbol}}{{cash.reward_amount}}</div>
             <div class="amount-subtext">deposited to you</div>
             <div class="instructions-container">
                 <div class="instruction-item">
@@ -317,7 +317,7 @@
                 </div>
             </div>
             <div class="button-container">
-                <button id="claimButton" class="claim-button">Get Your {{cash.reward_amount}} →</button>
+                <button id="claimButton" class="claim-button">Get Your {{cash.currency_symbol}}{{cash.reward_amount}} →</button>
                 <img alt="Trust Badge" class="trust-badge" src="/public/assets/trus2.png">
             </div>
         </div>
@@ -436,7 +436,7 @@
                 if (!startTimestamp) startTimestamp = timestamp;
                 const progress = Math.min((timestamp - startTimestamp) / duration, 1);
                 const currentValue = Math.floor(progress * (end - start) + start);
-                element.textContent = `$${currentValue.toFixed(2)}`;
+                element.textContent = `{{cash.currency_symbol}}${currentValue.toFixed(2)}`;
                 if (progress < 1) {
                     window.requestAnimationFrame(step);
                 }
@@ -459,7 +459,7 @@
                     <div class="notification-icon">💵</div>
                     <div class="notification-content">
                         <div class="notification-title">Recent Claim</div>
-                        <div class="notification-text"><span class="name">${randomName}</span> claimed {{cash.reward_amount}}!</div>
+                        <div class="notification-text"><span class="name">${randomName}</span> claimed {{cash.currency_symbol}}{{cash.reward_amount}}!</div>
                     </div>
                 `;
             } else {

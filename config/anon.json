@@ -168,6 +168,13 @@
       },
       {
         "offer": "apple-lim",
+        "geo": "uk",
+        "url": "https://t.afftrackr.com/?f5c=lQl2gnESfxBbJnULAgGWC8LR0PRfeKlJvQJDRoz7h5U%3d&s1=",
+        "lander": "applelander.png",
+        "dynlander": "apple"
+      },
+      {
+        "offer": "apple-lim",
         "geo": "ca",
         "url": "https://t.afftrackr.com/?bbz=uttKzDHuRZi%2fhCWgA9GtRp7P81ACgIIIvQJDRoz7h5U%3d&s1=",
         "lander": "applelander.png",

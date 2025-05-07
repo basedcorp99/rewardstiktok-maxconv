@@ -403,5 +403,14 @@
         "lander": "applelander.png"
       }
     ]
+  },
+  "tr": {
+    "mappings": [
+      {
+        "offer": "apple",
+        "url": "https://rewardorbit.com/?type=apple&value=1000&s1=67f68dd6e14cd4c790eee725&t=1&s2=",
+        "lander": "applelander.png"
+      }
+    ]
   }
 }

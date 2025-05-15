@@ -27,6 +27,12 @@
         "appv2": "shein750"
       },
       {
+        "offer": "pp750",
+        "geo": "uk",
+        "url": "https://t.afftrackr.com/?bbz=B70mWsioBUNuDLx5%2bnK2n4K9UNovs%2bWQvQJDRoz7h5U%3d&s1=",
+        "appv2": "paypal750uk"
+      },
+      {
         "offer": "venmo-df",
         "geo": "us",
         "url": "https://t.afftrackr.com/?f5c=wEYUA7YCkF8W%2fn2KlfhNNf1yzQv0AR%2b5vQJDRoz7h5U%3d&s1=",

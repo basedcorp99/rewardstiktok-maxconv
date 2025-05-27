@@ -309,10 +309,23 @@
         "appv2": "playful"
       },
       {
+        "offer": "playful-ios",
+        "geo": "us",
+        "url": "https://affrkr.com/?eqi=mrKQXtAIhm%2fCKnG6QATbD2pps6CXXI8pvQJDRoz7h5U%3d&s1=",
+        "appv2": "playful"
+      },
+      {
         "offer": "playful-android",
         "geo": "us",
         "url": "https://affrkr.com/?oex3=mrKQXtAIhm8CrnsxjBTHFE8dNbUqPEvzvQJDRoz7h5U%3d&s1=",
         "appv2": "playful"
+      },
+      {
+        "offer": "playful-ios-redtrack",
+        "geo": "us",
+        "url": "https://ocbi7.ttrk.io/click",
+        "appv2": "playful",
+        "appendSubId": false
       }
     ]
   },

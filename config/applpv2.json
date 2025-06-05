@@ -119,5 +119,17 @@
     "amount_subtitle_color": "#040404",
     "offer_title_color": "#040404",
     "currency_symbol": "$"
+  },
+  "jd1000": {
+    "name": "JD Sports",
+    "app_logo": "jd.png",
+    "alert_icon": "💵",
+    "reward_amount": "1000",
+    "site_bg_color": "#000",
+    "claim_button_color": "#000",
+    "amount_color": "#000",
+    "amount_subtitle_color": "#000",
+    "offer_title_color": "#000",
+    "currency_symbol": "$"
   }
 }

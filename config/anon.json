@@ -42,7 +42,7 @@
         "offer": "sh",
         "geo": "uk",
         "url": "https://ftblltrck.com/?TTT=ls%2bhYZXZ1q5Gwlls2hgkkdjm6MysP39UvQJDRoz7h5U%3d&s1=",
-        "lander": "sh-christmas-750-lim.png",
+        "lander": "sheinlander_2025_1000.png",
         "dynlander": "shein",
         "quiz2lander": "shein",
         "applander": "shein750",
@@ -143,7 +143,8 @@
         "geo": "uk",
         "url": "https://t.afftrackr.com/?lnwk=uttKzDHuRZi2patO%2bewch%2f2xKbX18XNLvQJDRoz7h5U%3d&s1=",
         "lander": "jdlander.png",
-        "dynlander": "jd"
+        "dynlander": "jd",
+        "appv2": "jd1000"
       },
       {
         "offer": "iphone16-lim",

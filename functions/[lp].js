@@ -28,6 +28,7 @@ export async function onRequest(context) {
     }
     // Optional geo with required throwing fallback
     params.geo = s.get('g') ?? mapGeoToCountry(context.request);
+    params.use_tracking_link = s.get('use_tracking_link') ? true : false;
 
     let cb = handlerMap[lp];
 

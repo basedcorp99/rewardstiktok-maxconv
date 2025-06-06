@@ -26,6 +26,7 @@
       "PIXEL_ID": "1620194525592088"
     }
   },
+  "tracking_link": "https://pxpucj.mcgo2.com/click",
   "fl": {
     "mappings": [
       {
@@ -320,13 +321,6 @@
         "geo": "us",
         "url": "https://affrkr.com/?oex3=mrKQXtAIhm8CrnsxjBTHFE8dNbUqPEvzvQJDRoz7h5U%3d&s1=",
         "appv2": "playful"
-      },
-      {
-        "offer": "playful-ios-maxconv",
-        "geo": "us",
-        "url": "https://pxpucj.mcgo2.com/click",
-        "appv2": "playful",
-        "appendSubId": false
       }
     ]
   },

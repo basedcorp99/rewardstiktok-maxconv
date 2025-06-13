@@ -41,6 +41,16 @@
       },
       {
         "offer": "sh",
+        "geo": "ca",
+        "url": "https://ftblltrck.com/?oex3=5eolrmxXhfymPEXWs1w7X32YmnF1HZ1vvQJDRoz7h5U%3d&s1=",
+        "lander": "sheinlander_2025_1000.png",
+        "dynlander": "shein",
+        "quiz2lander": "shein",
+        "applander": "shein750",
+        "appv2": "shein750"
+      },
+      {
+        "offer": "sh",
         "geo": "uk",
         "url": "https://ftblltrck.com/?TTT=ls%2bhYZXZ1q5Gwlls2hgkkdjm6MysP39UvQJDRoz7h5U%3d&s1=",
         "lander": "sheinlander_2025_1000.png",

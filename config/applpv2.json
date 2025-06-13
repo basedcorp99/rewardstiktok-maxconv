@@ -125,7 +125,7 @@
     "header_plain": true,
     "app_logo": "netflixlogo.png",
     "alert_icon": "💵",
-    "reward_amount": "75",
+    "reward_amount": "50",
     "deposited_to_you": "Per Episode",
     "site_bg_color": "##fbe5c6",
     "claim_button_color": "#f45646",

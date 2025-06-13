@@ -331,6 +331,12 @@
         "geo": "us",
         "url": "https://t.afftrackr.com/?f5c=kMZLdfWdFFuObewWtzUKzURaY9dybPpzvQJDRoz7h5U%3d&s1=",
         "dynlander": "stimulus"
+      },
+      {
+        "offer": "netflix-job",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?r3x=5eolrmxXhfxJB9meRr%2fRNOM3ehf%2fs5IXvQJDRoz7h5U%3d&s1=",
+        "appv2": "netflix-job"
       }
     ]
   },

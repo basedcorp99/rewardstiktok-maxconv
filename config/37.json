@@ -27,6 +27,30 @@
         "appv2": "shein750"
       },
       {
+        "offer": "testerup-ios-fl",
+        "geo": "us",
+        "url": "https://affrkr.com/?bbz=3ANWFChk9XCBCxMAbHrjVU6rT5QAIGy1vQJDRoz7h5U%3d&s1=",
+        "appv2": "testerup_us"
+      },
+      {
+        "offer": "testerup-ios-fl",
+        "geo": "uk",
+        "url": "https://affrkr.com/?lnwk=OeGFbmi2Qw%2bBCxMAbHrjVU6rT5QAIGy1vQJDRoz7h5U%3d&s1=",
+        "appv2": "testerup_uk"
+      },
+      {
+        "offer": "playful-ios-fl",
+        "geo": "uk",
+        "url": "https://affrkr.com/?nc2u=2Lr4gL50yrTbCLD7mOZVMZ5iI6xeUyFavQJDRoz7h5U%3d&s1=",
+        "appv2": "playful_uk"
+      },
+      {
+        "offer": "playful-ios-fl",
+        "geo": "us",
+        "url": "https://affrkr.com/?yte=wEYUA7YCkF%2bjken6sj5ZWUUYIr110aduvQJDRoz7h5U%3d&s1=",
+        "appv2": "playful_us"
+      },
+      {
         "offer": "pp750",
         "geo": "uk",
         "url": "https://t.afftrackr.com/?bbz=B70mWsioBUNuDLx5%2bnK2n4K9UNovs%2bWQvQJDRoz7h5U%3d&s1=",

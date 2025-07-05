@@ -243,6 +243,34 @@
         "applander": "amazon750"
       },
       {
+        "offer": "amz-prime",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?ge4=5yEolyN%2bjHzcFoQHE8XVJ2iCVsdfJJwmvQJDRoz7h5U%3d&s1=",
+        "lander": "amazon750.png",
+        "appv2": "amazon-prime"
+      },
+      {
+        "offer": "amz-prime",
+        "geo": "ca",
+        "url": "https://t.afftrackr.com/?lnwk=O%2bnBNuggu6LereCRG2sLTAud2VWuDX1lvQJDRoz7h5U%3d&s1=",
+        "lander": "amazon750.png",
+        "appv2": "amazon-prime"
+      },
+      {
+        "offer": "amz-prime",
+        "geo": "au",
+        "url": "https://t.afftrackr.com/?eqi=uttKzDHuRZgp3xiatbGkOB44gCjTmjT%2fvQJDRoz7h5U%3d&s1=",
+        "lander": "amazon750.png",
+        "appv2": "amazon-prime"
+      },
+      {
+        "offer": "amz-prime",
+        "geo": "uk",
+        "url": "https://t.afftrackr.com/?nc2u=5eolrmxXhfwOMDkz7evJbw9UisOjcTgtvQJDRoz7h5U%3d&s1=",
+        "lander": "amazon750.png",
+        "appv2": "amazon-prime"
+      },
+      {
         "offer": "eats-df",
         "geo": "uk",
         "url": "https://t.afftrackr.com/?TTT=5yEolyN%2bjHwkeUpYa6z4wANOXx18W5uevQJDRoz7h5U%3d&s1=",

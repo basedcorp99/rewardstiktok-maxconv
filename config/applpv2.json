@@ -197,5 +197,18 @@
     "amount_subtitle_color": "#000",
     "offer_title_color": "#000",
     "currency_symbol": "$"
+  },
+  "amazon-prime": {
+    "name": "Amazon Prime Bonus",
+    "header_plain": true,
+    "app_logo": "amzprime.png",
+    "alert_icon": "💵",
+    "reward_amount": "1500",
+    "site_bg_color": "#b5d9e6",
+    "claim_button_color": "#00A9E2",
+    "amount_color": "#00A9E2",
+    "amount_subtitle_color": "#00A9E2",
+    "offer_title_color": "#00A9E2",
+    "currency_symbol": "$"
   }
 }

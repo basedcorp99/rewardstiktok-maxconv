@@ -107,8 +107,8 @@
     },
     "freecash": {
         "color": "#20242c",
-        "logo": "freecash.png",
-        "quiz_title": "How to get started",
+        "logo": "freecash.webp",
+        "quiz_title": "your credit",
         "skip_deals": false
     }
 }

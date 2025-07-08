@@ -8,8 +8,8 @@
       "PIXEL_CLICK_EVENT": "Lead"
     },
     "Sales_main": {
-      "PIXEL_ID": "",
-      "EVENTSAPI_ACCESSTOKEN": "",
+      "PIXEL_ID": "D1MKR33C77U2K3H7ID8G",
+      "EVENTSAPI_ACCESSTOKEN": "46bc6bf19ffb754f29b1a66314a23b72cf942bfe",
       "PIXEL_VIEW_EVENT": "ViewContent",
       "PIXEL_CLICK_EVENT": "AddToCart"
     }

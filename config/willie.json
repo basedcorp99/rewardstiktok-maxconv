@@ -1,6 +1,6 @@
 {
   "tt_pixels": {
-    "default_pixel": "API + EVENT VIEW CONTENT & SUBMITFORM",
+    "default_pixel": "Lead_main",
     "Lead_main": {
       "PIXEL_ID": "D1MEAB3C77U5IDGMH4Q0",
       "EVENTSAPI_ACCESSTOKEN": "791778e2d4965a6dcfef5771c018512407da871b",

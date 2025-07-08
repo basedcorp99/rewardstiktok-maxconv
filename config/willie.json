@@ -2,8 +2,8 @@
   "tt_pixels": {
     "default_pixel": "NEWADAMDIGI",
     "Final": {
-      "PIXEL_ID": "CUGDGU3C77UCOV2DNR5G",
-      "EVENTSAPI_ACCESSTOKEN": "7d9961ee2d35139edf082d3b935f99320624deac",
+      "PIXEL_ID": "D1MEAB3C77U5IDGMH4Q0",
+      "EVENTSAPI_ACCESSTOKEN": "791778e2d4965a6dcfef5771c018512407da871b",
       "PIXEL_VIEW_EVENT": "ViewContent",
       "PIXEL_CLICK_EVENT": "SubmitForm"
     }
@@ -12,7 +12,7 @@
   "gl": {
     "mappings": [
       {
-        "offer": "testerup",
+        "offer": "testerup_us",
         "geo": "us",
         "url": "https://rewarrdsgiant.com/aff_c?offer_id=2414&aff_id=30150",
         "lander": "",

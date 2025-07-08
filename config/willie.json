@@ -15,17 +15,14 @@
         "offer": "testerup_us",
         "geo": "us",
         "url": "https://rewarrdsgiant.com/aff_c?offer_id=2414&aff_id=30150",
-        "lander": "",
-        "dynlander": "shein",
-        "appendSubId": false
+        "appv2": "testerup_us"
       },
       {
         "offer": "freecash",
         "geo": "us",
         "url": "https://rewarrdsgiant.com/aff_c?offer_id=2593&aff_id=30150",
         "lander": "",
-        "dynlander": "shein",
-        "appendSubId": false
+        "appv2": ""  
       }
     ]
   }

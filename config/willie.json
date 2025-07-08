@@ -2,8 +2,8 @@
   "tt_pixels": {
     "default_pixel": "Lead_main",
     "Lead_main": {
-      "PIXEL_ID": "D1MEAB3C77U5IDGMH4Q0",
-      "EVENTSAPI_ACCESSTOKEN": "791778e2d4965a6dcfef5771c018512407da871b",
+      "PIXEL_ID": "D1MHPHBC77U2K3H7IA50",
+      "EVENTSAPI_ACCESSTOKEN": "8c0c0ec0770e331f992a8612958831a5b44f694b",
       "PIXEL_VIEW_EVENT": "ViewContent",
       "PIXEL_CLICK_EVENT": "Lead"
     },
@@ -18,11 +18,10 @@
   "gl": {
     "mappings": [
       {
-        "offer": "testerup_us",
+        "offer": "testerup_us_1",
         "geo": "us",
-        "url": "https://rewarrdsgiant.com/aff_c?offer_id=2414&aff_id=30150",
+        "url": "https://rewarrdsgiant.com/aff_c?offer_id=2414&aff_id=30150&source=1",
         "appv2": "testerup_us",
-        "appendSubId": false
       },
       {
         "offer": "freecash",

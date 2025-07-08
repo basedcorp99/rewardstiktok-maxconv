@@ -199,7 +199,7 @@
     "currency_symbol": "$"
   },
   "amazon-prime": {
-    "name": "Amazon Prime Bonus",
+    "name": "Amazon Prime Day Bonus",
     "header_plain": true,
     "app_logo": "amzprime.png",
     "alert_icon": "💵",

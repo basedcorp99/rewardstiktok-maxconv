@@ -417,6 +417,12 @@
         "lander": "amazon750.png"
       },
       {
+        "offer": "amazon-prime-day",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?r3x=MalFzuVbZQ9cX7O01NLFaJv%2fQYMYtr%2bivQJDRoz7h5U%3d&s1=",
+        "appv2": "amazon-prime"
+      },
+      {
         "offer": "amazon-pr",
         "geo": "us",
         "url": "https://t.afftrackr.com/?oex3=iyX5%2ba7elU2%2f%2bwR9369m8VptjMP12YRvvQJDRoz7h5U%3d&s1=",
@@ -439,6 +445,9 @@
     ]
   },
   "tapp": {
+    "mappings": []
+  },
+  "ag": {
     "mappings": []
   },
   "glitchy": {

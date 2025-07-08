@@ -106,9 +106,9 @@
         "skip_deals": true
     },
     "freecash": {
-        "color": "#000",
+        "color": "#20242c",
         "logo": "freecash.png",
-        "quiz_title": "your $1000 stimulus!",
-        "skip_deals": true
+        "quiz_title": "How to get started",
+        "skip_deals": false
     }
 }

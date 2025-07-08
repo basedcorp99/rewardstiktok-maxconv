@@ -1,11 +1,17 @@
 {
   "tt_pixels": {
-    "default_pixel": "NEWADAMDIGI",
-    "Final": {
+    "default_pixel": "API + EVENT VIEW CONTENT & SUBMITFORM",
+    "Lead_main": {
       "PIXEL_ID": "D1MEAB3C77U5IDGMH4Q0",
       "EVENTSAPI_ACCESSTOKEN": "791778e2d4965a6dcfef5771c018512407da871b",
       "PIXEL_VIEW_EVENT": "ViewContent",
-      "PIXEL_CLICK_EVENT": "SubmitForm"
+      "PIXEL_CLICK_EVENT": "Lead"
+    },
+    "Sales_main": {
+      "PIXEL_ID": "",
+      "EVENTSAPI_ACCESSTOKEN": "",
+      "PIXEL_VIEW_EVENT": "ViewContent",
+      "PIXEL_CLICK_EVENT": "AddToCart"
     }
   },
   "tracking_link": "https://track.jokomabmarketing.com/click",
@@ -15,14 +21,15 @@
         "offer": "testerup_us",
         "geo": "us",
         "url": "https://rewarrdsgiant.com/aff_c?offer_id=2414&aff_id=30150",
-        "appv2": "testerup_us"
+        "appv2": "testerup_us",
+        "appendSubId": false
       },
       {
         "offer": "freecash",
         "geo": "us",
         "url": "https://rewarrdsgiant.com/aff_c?offer_id=2593&aff_id=30150",
-        "lander": "",
-        "appv2": ""  
+        "dynlander": "freecash",
+        "appendSubId": false
       }
     ]
   }

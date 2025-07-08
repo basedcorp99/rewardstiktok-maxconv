@@ -104,5 +104,11 @@
         "logo": "visa1000.avif",
         "quiz_title": "your $1000 stimulus!",
         "skip_deals": true
+    },
+    "freecash": {
+        "color": "#000",
+        "logo": "freecash.png",
+        "quiz_title": "your $1000 stimulus!",
+        "skip_deals": true
     }
 }

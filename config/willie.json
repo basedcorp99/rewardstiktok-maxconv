@@ -18,7 +18,7 @@
   "gl": {
     "mappings": [
       {
-        "offer": "testerup_us_1",
+        "offer": "testerup_1",
         "geo": "us",
         "url": "https://rewarrdsgiant.com/aff_c?offer_id=2414&aff_id=30150&source=1",
         "appv2": "testerup_us"
@@ -31,16 +31,23 @@
         "appendSubId": false
       },
       {
-        "offer": "freecash__2",
+        "offer": "freecash_2",
         "geo": "us",
         "url": "https://rewarrdsgiant.com/aff_c?offer_id=2593&aff_id=30150&source=2",
         "dynlander": "freecash",
         "appendSubId": false
       },
       {
-        "offer": "freecash__3",
+        "offer": "freecash_3",
         "geo": "us",
         "url": "https://rewarrdsgiant.com/aff_c?offer_id=2593&aff_id=30150&source=3",
+        "dynlander": "freecash",
+        "appendSubId": false
+      },
+      {
+        "offer": "freecash_4",
+        "geo": "us",
+        "url": "https://rewarrdsgiant.com/aff_c?offer_id=2593&aff_id=30150&source=4",
         "dynlander": "freecash",
         "appendSubId": false
       }

@@ -18,39 +18,30 @@
   "gl": {
     "mappings": [
       {
-        "offer": "testerup_1",
+        "offer": "testerup",
         "geo": "us",
-        "url": "https://rewarrdsgiant.com/aff_c?offer_id=2414&aff_id=30150&source=1",
+        "url": "https://rewarrdsgiant.com/aff_c?offer_id=2414&aff_id=30150&source=",
         "appv2": "testerup_us"
       },
       {
-        "offer": "freecash_1",
+        "offer": "freecash",
         "geo": "us",
-        "url": "https://rewarrdsgiant.com/aff_c?offer_id=2593&aff_id=30150&source=1",
-        "dynlander": "freecash",
-        "appendSubId": false
-      },
+        "url": "https://rewarrdsgiant.com/aff_c?offer_id=2593&aff_id=30150&source=",
+        "dynlander": "freecash"
+      }
+
+    ]
+  },
+  "mb": {
+    "mappings": [
       {
-        "offer": "freecash_2",
+        "offer": "freecash",
         "geo": "us",
-        "url": "https://rewarrdsgiant.com/aff_c?offer_id=2593&aff_id=30150&source=2",
-        "dynlander": "freecash",
-        "appendSubId": false
-      },
-      {
-        "offer": "freecash_3",
-        "geo": "us",
-        "url": "https://rewarrdsgiant.com/aff_c?offer_id=2593&aff_id=30150&source=3",
-        "dynlander": "freecash",
-        "appendSubId": false
-      },
-      {
-        "offer": "freecash_4",
-        "geo": "us",
-        "url": "https://rewarrdsgiant.com/aff_c?offer_id=2593&aff_id=30150&source=4",
+        "url": "https://afflat3c2.com/trk/lnk/75E78098-0D26-4624-AFFB-42FAB14FF19B/?o=26175&c=918277&a=766659&k=F33626864E20FB14FD9067FD135CD1E5&l=27558&s1=TikTok",
         "dynlander": "freecash",
         "appendSubId": false
       }
     ]
   }
 }
+

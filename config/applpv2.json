@@ -210,5 +210,19 @@
     "amount_subtitle_color": "#00A9E2",
     "offer_title_color": "#00A9E2",
     "currency_symbol": "$"
+  },
+  "shein-beef": {
+    "name": "SHEIN Codes",
+    "header_plain": true,
+    "deposited_to_you": "Instantly sent to you",
+    "app_logo": "sheinlogo.png",
+    "alert_icon": "💵",
+    "reward_amount": "750",
+    "site_bg_color": "##fbe5c6",
+    "claim_button_color": "#f45646",
+    "amount_color": "#f45646",
+    "amount_subtitle_color": "#040404",
+    "offer_title_color": "#040404",
+    "currency_symbol": "$"
   }
 }

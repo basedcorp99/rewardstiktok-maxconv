@@ -229,6 +229,16 @@
         "lander": "sheinlander.png"
       },
       {
+        "offer": "shein-b2s",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?lnwk=OeGFbmi2Qw8jBil7prLgAcSQ7weHJkpwvQJDRoz7h5U%3d&s1=",
+        "lander": "sheinlander_2025_1000.png",
+        "dynlander": "shein",
+        "quiz2lander": "shein",
+        "applander": "shein750",
+        "appv2": "shein1000"
+      },
+      {
         "offer": "shein-fp",
         "geo": "ca",
         "url": "https://t.afftrackr.com/?es4v=2Lr4gL50yrQrJ0vAO7of71st87vDSrzqvQJDRoz7h5U%3d&s1=",

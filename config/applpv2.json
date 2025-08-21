@@ -59,6 +59,18 @@
     "offer_title_color": "#040404",
     "currency_symbol": "$"
   },
+  "shein1000": {
+    "name": "Shein",
+    "app_logo": "sheinlogo.png",
+    "alert_icon": "💵",
+    "reward_amount": "1000",
+    "site_bg_color": "##fbe5c6",
+    "claim_button_color": "#f45646",
+    "amount_color": "#f45646",
+    "amount_subtitle_color": "#040404",
+    "offer_title_color": "#040404",
+    "currency_symbol": "$"
+  },
   "paypal500": {
     "name": "PayPal",
     "app_logo": "paypallogo.png",

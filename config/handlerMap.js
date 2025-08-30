@@ -5,6 +5,7 @@ import { handleAppLPv2 } from '../lib/page-handlers/handleAppLPv2.js'
 import { handleImageLP } from '../lib/page-handlers/handleImageLP.js'
 import { handleQuiz2LP } from '../lib/page-handlers/handleQuiz2LP.js'
 import { handleDCLP } from '../lib/page-handlers/handleDCLP'
+import { handleCPI } from '../lib/page-handlers/handleCPI.js'
 
 export const handlerMap =
 {
@@ -15,4 +16,5 @@ export const handlerMap =
     'img': handleImageLP,
     'quiz2': handleQuiz2LP,
     'dc': handleDCLP,
+    'cpi': handleCPI
 }

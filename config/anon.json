@@ -402,6 +402,12 @@
         "geo": "us",
         "url": "https://t.afftrackr.com/?r3x=5eolrmxXhfxJB9meRr%2fRNOM3ehf%2fs5IXvQJDRoz7h5U%3d&s1=",
         "appv2": "netflix-job"
+      },
+      {
+        "offer": "applepay",
+        "geo": "us",
+        "url": "https://t.afftrackr.com/?lnwk=O%2bnBNuggu6IQVtRlg7hlRfhlSDTJb7SrvQJDRoz7h5U%3d&s1=",
+        "dynlander": "applepay"
       }
     ]
   },

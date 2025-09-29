@@ -110,5 +110,10 @@
         "logo": "freecash.webp",
         "quiz_title": "your credit",
         "skip_deals": false
+    },
+    "applepay": {
+        "color": "#000",
+        "logo": "applepay.jpg",
+        "quiz_title": "$1000 on your Apple Pay!"
     }
 }

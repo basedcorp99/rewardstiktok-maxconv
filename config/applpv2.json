@@ -248,5 +248,17 @@
     "amount_subtitle_color": "#040404",
     "offer_title_color": "#040404",
     "currency_symbol": "$"
+  },
+  "applepay": {
+    "name": "Apple Pay",
+    "app_logo": "applelogo.png",
+    "alert_icon": "💵",
+    "reward_amount": "1000",
+    "site_bg_color": "##fbe5c6",
+    "claim_button_color": "#040404",
+    "amount_color": "#040404",
+    "amount_subtitle_color": "#040404",
+    "offer_title_color": "#040404",
+    "currency_symbol": "$"
   }
 }

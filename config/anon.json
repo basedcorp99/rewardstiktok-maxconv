@@ -407,7 +407,8 @@
         "offer": "applepay",
         "geo": "us",
         "url": "https://t.afftrackr.com/?lnwk=O%2bnBNuggu6IQVtRlg7hlRfhlSDTJb7SrvQJDRoz7h5U%3d&s1=",
-        "dynlander": "applepay"
+        "dynlander": "applepay",
+        "appv2": "applepay"
       }
     ]
   },

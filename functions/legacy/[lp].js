@@ -1,6 +1,6 @@
-import { wrapReq } from '../lib/wrapper.js'
-import { mapGeoToCountry } from '../lib/wrapper_helpers.js'
-import { handlerMap } from '../config/handlerMap.js'
+import { wrapReq } from '../../lib/wrapper.js'
+import { mapGeoToCountry } from '../../lib/wrapper_helpers.js'
+import { handlerMap } from '../../config/handlerMap.js'
 
 
 export async function onRequest(context) {
@@ -10,7 +10,6 @@ export async function onRequest(context) {
     const lp = context.params.lp;
 
     const shortKeys = {
-        u: 'user',
         n: 'network',
         o: 'offer',
         s1: 'subid',
@@ -28,7 +27,7 @@ export async function onRequest(context) {
     }
     // Optional geo with required throwing fallback
     params.geo = s.get('g') ?? mapGeoToCountry(context.request);
-    params.use_tracking_link = s.get('use_tracking_link') ? true : false;
+    params.use_tracking_link = s.get('use_direct_link') ? false : true;
 
     let cb = handlerMap[lp];
 

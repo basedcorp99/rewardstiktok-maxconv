@@ -1,15 +1,15 @@
-import { userMap } from '../config/userMap.js';
+import anonConfig from '../config/anon.json';
 import { triggerPixel } from '../lib/pixel.js';
 
 export async function onRequest(context) {
     const body = await context.request.json();
-    const { u: user, p: pixel_name, ttclid } = body;
+    const { p: pixel_name, ttclid } = body;
 
-    if (!user || !pixel_name || !ttclid) {
-        return errorResponse("Missing required fields: u, p, ttclid");
+    if (!pixel_name || !ttclid) {
+        return errorResponse("Missing required fields: p, ttclid");
     }
 
-    const pixel = userMap[user]?.tt_pixels?.[pixel_name];
+    const pixel = anonConfig.tt_pixels?.[pixel_name];
 
     if (!pixel) {
         return errorResponse("Pixel not found");

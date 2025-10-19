@@ -1,0 +1,170 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reward Claim</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #0d011f;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+            color: #fff;
+        }
+        .container {
+            background: linear-gradient(180deg, #1a1032 0%, #6d00be 100%);
+            border-radius: 16px;
+            box-shadow: 0 0 15px rgba(160, 82, 255, 0.12);
+            max-width: 420px;
+            width: 100%;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        .main-display-image {
+            width: 80%;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+        .reward-progress p {
+            font-size: 0.95em;
+            margin-bottom: 8px;
+            color: #f0f0f0;
+            font-weight: 600;
+        }
+        .progress-bar-container {
+            background-color: #341c56;
+            border-radius: 5px;
+            height: 10px;
+            overflow: hidden;
+        }
+        .progress-bar {
+            background-color: #00d47e;
+            width: 33%;
+            height: 100%;
+        }
+        .instructions-header {
+            font-size: 1.2em;
+            font-weight: 700;
+            margin: 0 0 20px;
+        }
+        .quick-start-guide {
+            background: #2e1e5c;
+            border-radius: 12px;
+            padding: 7px 20px;
+            margin-bottom: 25px;
+            text-align: left;
+        }
+        .quick-start-guide h3 {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        .quick-start-guide ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .quick-start-guide li {
+            display: flex;
+            align-items: start;
+            margin-bottom: 15px;
+        }
+        .quick-start-guide .icon {
+            background-color: #00d47e;
+            color: #2e006f;
+            font-weight: bold;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 12px;
+            font-size: 0.8em;
+        }
+        .text-main {
+            font-weight: 600;
+        }
+        .text-sub {
+            font-size: 0.85em;
+            color: #d1cfe0;
+        }
+        .start-earning-btn {
+            display: block;
+            background: linear-gradient(to right, #00d47e, #1ee3af);
+            color: #2e006f;
+            padding: 15px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1.1em;
+            text-decoration: none;
+            margin: 0 auto 20px;
+        }
+        .footer-text {
+            font-size: 0.8em;
+            color: #b4add1;
+            text-align: center;
+        }
+        .footer-text .lock-icon {
+            font-size: 1em;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="/public/playful-1/images/playful.png" alt="PP Logo" class="main-display-image">
+        <div class="instructions-header">Follow the instructions<br>to start earning today!</div>
+        <div class="quick-start-guide">
+            <h3>Quick Start Guide →</h3>
+            <ul>
+                <li>
+                    <span class="icon">✓</span>
+                    <div>
+                        <span class="text-main">Download the Playful app</span><br>
+                        <span class="text-sub">Click the button below</span>
+                    </div>
+                </li>
+                <li>
+                    <span class="icon">✓</span>
+                    <div>
+                        <span class="text-main">Earn More by Testing Multiple Games</span><br>
+                        <span class="text-sub">Make over $100/day</span>
+                    </div>
+                </li>
+                <li>
+                    <span class="icon">✓</span>
+                    <div>
+                        <span class="text-main">Pro tip: Make in-app purchases on <br>the games to earn faster</span><br>
+                        <span class="text-sub">They reimburse you for anything you spend!</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <a href="index.html#" class="start-earning-btn" onclick="handleClick(); fbq('track', 'AddToCart'); ttq.track('AddToCart'); ttq.track('Lead');">START EARNING NOW</a>
+        <div class="footer-text">
+            <span class="lock-icon">🛡️</span> Secure & Confidential
+        </div>
+    </div>
+
+    <script>
+    function handleClick() {
+        const ctaURL = new URL('{{target_url}}');
+        window.open(ctaURL.toString(), '_blank');
+    }
+
+    // Make all cards clickable
+    document.querySelectorAll('.card, .rewards-img').forEach(element => {
+        element.style.cursor = 'pointer';
+        element.addEventListener('click', handleClick);
+    });
+    </script>
+
+</body></html>

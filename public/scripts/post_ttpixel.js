@@ -5,7 +5,7 @@ function exit(u, p) {
         fetch(`/exit`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ u, p, ttclid })
+            body: JSON.stringify({ p, ttclid })
         }).catch(e => console.error(`exit Error:`, e));
     }
 }
